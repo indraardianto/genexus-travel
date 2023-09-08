@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\wwattractionsfromscratch.dll
+C:\KB\Traveling\CSharpModel\build\wwattractionsfromscratch\obj\Release\wwattractionsfromscratch.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\wwattractionsfromscratch\obj\Release\wwattractionsfromscratch.dll

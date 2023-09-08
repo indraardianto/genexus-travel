@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\viewattraction.dll
+C:\KB\Traveling\CSharpModel\build\viewattraction\obj\Release\viewattraction.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\viewattraction\obj\Release\viewattraction.dll

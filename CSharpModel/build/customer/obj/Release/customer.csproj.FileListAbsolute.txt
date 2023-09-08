@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\customer.dll
+C:\KB\Traveling\CSharpModel\build\customer\obj\Release\customer.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\customer\obj\Release\customer.dll

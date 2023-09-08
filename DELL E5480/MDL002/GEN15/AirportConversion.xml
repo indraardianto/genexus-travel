@@ -1,0 +1,222 @@
+
+<ReorgSpec>
+<SpecVersion>17_0_8-158023</SpecVersion>
+<Table>
+<TableId>7</TableId>
+<TableName>Airport</TableName>
+<Description>Airport</Description></Table>
+<ReorgCls>c</ReorgCls>
+<ReorgCode>pk</ReorgCode>
+<ReorgMsg>Airport needs conversion</ReorgMsg>
+<ReorgAction>#</ReorgAction>
+<TableAttributes>
+<AttrisInTable>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>AirportId</AttriName>
+<Description>Airport Id</Description>
+<TakesValueFrom>
+<Table>
+<TableId>7</TableId>
+<TableName>Airport</TableName>
+<Description>Airport</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>AirportId</AttriName>
+<Description>Airport Id</Description></Attribute></FromValue></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>Yes</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType>
+<AttriOldType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriOldType>
+<AttriChangeType>upd</AttriChangeType></Attribute>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>AirportName</AttriName>
+<Description>Airport Name</Description>
+<TakesValueFrom>
+<Table>
+<TableId>7</TableId>
+<TableName>Airport</TableName>
+<Description>Airport</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>AirportName</AttriName>
+<Description>Airport Name</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>C</DataType>
+<Presicion>50</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>CountryId</AttriName>
+<Description>Country Id</Description>
+<TakesValueFrom>
+<Table>
+<TableId>7</TableId>
+<TableName>Airport</TableName>
+<Description>Airport</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>CountryId</AttriName>
+<Description>Country Id</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>CityId</AttriName>
+<Description>City Id</Description>
+<TakesValueFrom>
+<Table>
+<TableId>7</TableId>
+<TableName>Airport</TableName>
+<Description>Airport</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>CityId</AttriName>
+<Description>City Id</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute></AttrisInTable>
+<AttrisNoLongerInTable></AttrisNoLongerInTable>
+<AttrisInManyTables></AttrisInManyTables></TableAttributes>
+<NavigationTree>
+<Table>
+<TableId>7</TableId>
+<TableName>Airport</TableName>
+<Description>Airport</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>AirportId</AttriName>
+<Description>Airport Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<TableIndices>
+<Indices>
+<Index>
+<IndexName>IAIRPORT</IndexName>
+<IndexType>u</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>AirportId</AttriName>
+<Description>Airport Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>Yes</Clustered></Index>
+<Index>
+<IndexName>IAIRPORT1</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>CountryId</AttriName>
+<Description>Country Id</Description></Attribute>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>CityId</AttriName>
+<Description>City Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index></Indices></TableIndices>
+<FKConstraints>
+<FKConstraint>
+<ChangeType>none</ChangeType>
+<Table>
+<TableId>5</TableId>
+<TableName>CountryCity</TableName>
+<Description>City</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>CountryId</AttriName>
+<Description>Country Id</Description></Attribute>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>CityId</AttriName>
+<Description>City Id</Description></Attribute></Attributes></FKConstraint></FKConstraints>
+<Statements>
+<Statement>CREATE TABLE [GXA0007] ([AirportId] smallint NOT NULL IDENTITY(1,1), [AirportName] nchar(50) NOT NULL , [CountryId] smallint NOT NULL , [CityId] smallint NOT NULL ) </Statement>
+<Statement>SET IDENTITY_INSERT [GXA0007] ON</Statement>
+<Statement>INSERT INTO [GXA0007] ([AirportId], [AirportName], [CountryId], [CityId]) SELECT [AirportId], [AirportName], [CountryId], [CityId] FROM [Airport] T1</Statement>
+<Statement>SET IDENTITY_INSERT [GXA0007] OFF</Statement>
+<Statement>DROP TABLE [Airport]</Statement>
+<Statement>CALL sp_rename('[GXA0007]', 'Airport')</Statement>
+<Statement>ALTER TABLE [Airport] ADD PRIMARY KEY([AirportId])</Statement>
+<Statement>CREATE NONCLUSTERED INDEX [IAIRPORT1] ON [Airport] ([CountryId] ,[CityId] )</Statement>
+<Statement>ALTER TABLE [Airport] ADD CONSTRAINT [IAIRPORT1] FOREIGN KEY ([CountryId], [CityId]) REFERENCES [CountryCity] ([CountryId], [CityId])</Statement></Statements>
+<NeedReorganizationProgram>False</NeedReorganizationProgram>
+<Warnings></Warnings>
+<Errors></Errors></ReorgSpec>

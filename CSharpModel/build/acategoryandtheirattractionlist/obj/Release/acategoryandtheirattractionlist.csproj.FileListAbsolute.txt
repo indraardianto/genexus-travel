@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\acategoryandtheirattractionlist.dll
+C:\KB\Traveling\CSharpModel\build\acategoryandtheirattractionlist\obj\Release\acategoryandtheirattractionlist.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\acategoryandtheirattractionlist\obj\Release\acategoryandtheirattractionlist.dll

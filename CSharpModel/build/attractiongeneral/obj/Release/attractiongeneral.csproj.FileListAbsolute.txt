@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\attractiongeneral.dll
+C:\KB\Traveling\CSharpModel\build\attractiongeneral\obj\Release\attractiongeneral.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\attractiongeneral\obj\Release\attractiongeneral.dll

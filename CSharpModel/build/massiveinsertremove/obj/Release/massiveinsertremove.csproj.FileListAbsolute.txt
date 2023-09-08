@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\massiveinsertremove.dll
+C:\KB\Traveling\CSharpModel\build\massiveinsertremove\obj\Release\massiveinsertremove.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\massiveinsertremove\obj\Release\massiveinsertremove.dll

@@ -1,0 +1,14 @@
+bc_dt_elem_i([ 0,2,0 ],'Attractionid',allownulls,no).
+bc_dt_elem_i([ 0,2,0 ],'Attractionname',allownulls,no).
+bc_dt_elem_i([ 0,2,0 ],'Countryid',allownulls,no).
+bc_dt_elem_i([ 0,2,0 ],'Countryname',readonly,yes).
+bc_dt_elem_i([ 0,2,0 ],'Countryname',allownulls,no).
+bc_dt_elem_i([ 0,2,0 ],'Cityid',allownulls,no).
+bc_dt_elem_i([ 0,2,0 ],'Cityname',readonly,yes).
+bc_dt_elem_i([ 0,2,0 ],'Cityname',allownulls,no).
+bc_dt_elem_i([ 0,2,0 ],'Categoryname',readonly,yes).
+bc_dt_elem_i([ 0,2,0 ],'Categoryname',allownulls,no).
+bc_dt_elem_i([ 0,2,0 ],'Attractionphoto',allownulls,no).
+bc_dt_elem_i([ 0,2,0 ],'Attractionaddress',allownulls,no).
+bc_dt_elem_i([ 0,2,0 ],'Attractionphoto_gxi',allownulls,no).
+ 

@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\gx00e1.dll
+C:\KB\Traveling\CSharpModel\build\gx00e1\obj\Release\gx00e1.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\gx00e1\obj\Release\gx00e1.dll

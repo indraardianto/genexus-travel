@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\categoriesandattractions.dll
+C:\KB\Traveling\CSharpModel\build\categoriesandattractions\obj\Release\categoriesandattractions.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\categoriesandattractions\obj\Release\categoriesandattractions.dll

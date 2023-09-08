@@ -1,0 +1,2 @@
+ALTER TABLE [Trip] ALTER COLUMN [TripDescription] nchar(20) NOT NULL
+

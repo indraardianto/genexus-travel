@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\aattraction_dataprovider.dll
+C:\KB\Traveling\CSharpModel\build\aattraction_dataprovider\obj\Release\aattraction_dataprovider.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\aattraction_dataprovider\obj\Release\aattraction_dataprovider.dll

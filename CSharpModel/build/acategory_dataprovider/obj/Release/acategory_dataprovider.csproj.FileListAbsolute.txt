@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\acategory_dataprovider.dll
+C:\KB\Traveling\CSharpModel\build\acategory_dataprovider\obj\Release\acategory_dataprovider.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\acategory_dataprovider\obj\Release\acategory_dataprovider.dll

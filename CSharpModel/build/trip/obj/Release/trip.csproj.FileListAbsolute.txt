@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\trip.dll
+C:\KB\Traveling\CSharpModel\build\trip\obj\Release\trip.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\trip\obj\Release\trip.dll

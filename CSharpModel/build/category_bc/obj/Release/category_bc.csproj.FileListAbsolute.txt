@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\category_bc.dll
+C:\KB\Traveling\CSharpModel\build\category_bc\obj\Release\category_bc.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\category_bc\obj\Release\category_bc.dll

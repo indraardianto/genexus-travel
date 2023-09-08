@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\viewattracionfromscratch.dll
+C:\KB\Traveling\CSharpModel\build\viewattracionfromscratch\obj\Release\viewattracionfromscratch.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\viewattracionfromscratch\obj\Release\viewattracionfromscratch.dll

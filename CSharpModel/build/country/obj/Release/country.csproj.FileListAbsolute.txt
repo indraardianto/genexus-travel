@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\country.dll
+C:\KB\Traveling\CSharpModel\build\country\obj\Release\country.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\country\obj\Release\country.dll

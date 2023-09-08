@@ -1,0 +1,173 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_8-158023</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>31</ObjId>
+<ObjName>NewTrip</ObjName>
+<ObjDesc>New Trip</ObjDesc>
+<ObjPgmName>NewTrip</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0060</MsgCode>
+<Message>
+<Token>The program may be called by another program and the Commit on Exit property is set to YES</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Attractionid</VarId>
+<VarName>&amp;AttractionId</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Trips</VarId>
+<VarName>&amp;trips</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<LevelType>New</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>13</TableId>
+<TableName>Trip</TableName>
+<Description>Trip</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>TripId</AttriName>
+<Description>Trip Id</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<NavigationTree>
+<Table>
+<TableId>13</TableId>
+<TableName>Trip</TableName>
+<Description>Trip</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>TripId</AttriName>
+<Description>Trip Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>13</TableId>
+<TableName>Trip</TableName>
+<Description>Trip</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>49</AttriId>
+<AttriName>TripDate</AttriName>
+<Description>Trip Date</Description></Attribute>
+<Attribute>
+<AttriId>50</AttriId>
+<AttriName>TripDescription</AttriName>
+<Description>Trip Description</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>3</LevelNumber>
+<LevelType>New</LevelType>
+<LevelBeginRow>6</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>14</TableId>
+<TableName>TripAttraction</TableName>
+<Description>Attraction</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>TripId</AttriName>
+<Description>Trip Id</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>AttractionId</AttriName>
+<Description>Attraction Id</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<NavigationTree>
+<Table>
+<TableId>14</TableId>
+<TableName>TripAttraction</TableName>
+<Description>Attraction</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>TripId</AttriName>
+<Description>Trip Id</Description></Attribute>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>AttractionId</AttriName>
+<Description>Attraction Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>14</TableId>
+<TableName>TripAttraction</TableName>
+<Description>Attraction</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>TripId</AttriName>
+<Description>Trip Id</Description></Attribute>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>AttractionId</AttriName>
+<Description>Attraction Id</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>1</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>Aggregate Formulas</LevelType>
+<LevelBeginRow>10</LevelBeginRow>
+<BaseTable></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>14</TableId>
+<TableName>count( TripDate )  navigation</TableName>
+<Description>Attraction</Description>
+<RecordsToRead>many</RecordsToRead>
+<Tables>
+<Table>
+<TableId>14</TableId>
+<TableName>TripAttraction</TableName>
+<Description>Attraction</Description>
+<RecordsToRead>many</RecordsToRead>
+<Tables>
+<Table>
+<TableId>13</TableId>
+<TableName>Trip</TableName>
+<Description>Trip</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>TripId</AttriName>
+<Description>Trip Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></Tables></Table></NavigationTree></Level></Levels></ObjectSpec>

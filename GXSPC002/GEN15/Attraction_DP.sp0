@@ -1,0 +1,817 @@
+spec_i([ mnproc,5,'Attraction_DP','Attraction_DP',0,eng,'17_0_8-158023' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ta_i(1,[ [ [ 2001,se(40001,[ [ 2001,40001 ] ],[ t('coalesce(',1),t(40001,2),t(',',7),t('0',3),t(')',4) ]) ],[ 2003,se(40003,[ [ 2003,40003 ] ],[ t('coalesce(',1),t(40003,2),t(',',7),t('0',3),t(')',4) ]) ],[ 2004,se(40004,[ [ 2004,40004 ] ],[ t('coalesce(',1),t(40004,2),t(',',7),t('0',3),t(')',4) ]) ],[ 2005,se(40005,[ [ 2005,40005 ] ],[ t('coalesce(',1),t(40005,2),t(',',7),t('0',3),t(')',4) ]) ],[ 2006,se(40006,[ [ 2006,40006 ] ],[ t('coalesce(',1),t(40006,2),t(',',7),t('0',3),t(')',4) ]) ],[ 2007,se(40007,[ [ 2007,40007 ] ],[ t('coalesce(',1),t(40007,2),t(',',7),t('0',3),t(')',4) ]) ],[ 2008,se(40008,[ [ 2008,40008 ] ],[ t('coalesce(',1),t(40008,2),t(',',7),t('0',3),t(')',4) ]) ],[ 2000,se(40000,[ [ 2000,40000 ] ],[ t('coalesce(',1),t(40000,2),t(',',7),t('0',3),t(')',4) ]) ],[ 2009,se(40009,[ [ 2009,40009 ] ],[ t('coalesce(',1),t(40009,2),t(',',7),t('0',3),t(')',4) ]) ],[ 2002,se(40002,[ [ 2002,40002 ] ],[ t('coalesce(',1),t(40002,2),t(',',7),t('0',3),t(')',4) ]) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','Timeout=120')).
+rule_i(0,datastore(1,'USER_PASSWORD','uZXÔ=ˆoÒEÌ''[Z}tvÜCÚ¿ÌT')).
+rule_i(0,datastore(1,'USER_ID',uZXAxoI7SbyvxC12)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','trialapps3.genexus.com')).
+rule_i(0,datastore(1,'CS_DBNAME','Idd34a97045eb5096d2a7b475d46cdbbd3')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','Attraction_DP')).
+rule_i(0,prop('Folder',o(120,'Root Module'))).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('OutputCollectionName','AttractionCollection')).
+rule_i(0,prop('OutputCollection','-1')).
+rule_i(0,prop('OutputSDT',o(0,'Attraction'))).
+rule_i(0,prop(idINFER_SDT,idINFER_STRUCTURE_NO)).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('Theme',o(25,'Carmine'))).
+rule_i(0,prop(idISWEBSERVICE,'0')).
+rule_i(0,prop('ObjDesc','Attraction_DP')).
+rule_i(0,prop('ObjName','Attraction_DP')).
+rule_i(0,rule([ a(22,[ 'Rfr','"Refresh"','5' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Gxm2rootcol' ],[])).
+rule_i(0,parmio([ [ 'Gxm2rootcol',out ] ])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,1,ra,2000,[],[ [],'ICOUNTRY',[],1 ]).
+a_i(3,1,ra,2001,[],[ [],'ICOUNTRYCITY',[],1 ]).
+a_i(4,1,ra,2002,[],[ [],'ICATEGORY',[],1 ]).
+a_i(5,1,ra,2003,[],[ [],'ICOUNTRY',[],1 ]).
+a_i(6,1,ra,2004,[],[ [],'ICOUNTRYCITY',[],1 ]).
+a_i(7,1,ra,2005,[],[ [],'ICATEGORY',[],1 ]).
+a_i(8,1,ra,2006,[],[ [],'ICOUNTRY',[],1 ]).
+a_i(9,1,ra,2007,[],[ [],'ICOUNTRYCITY',[],1 ]).
+a_i(10,1,ra,2008,[],[ [],'ICATEGORY',[],1 ]).
+a_i(11,1,ra,2009,[],[ [],'ICOUNTRYCITY',[],1 ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(ra,i,2,[]).
+v_i(ra,o,2,40000).
+v_i(ra,i,3,[]).
+v_i(ra,o,3,40001).
+v_i(ra,i,4,[]).
+v_i(ra,o,4,40002).
+v_i(ra,i,5,[]).
+v_i(ra,o,5,40003).
+v_i(ra,i,6,[]).
+v_i(ra,o,6,40004).
+v_i(ra,i,7,[]).
+v_i(ra,o,7,40005).
+v_i(ra,i,8,[]).
+v_i(ra,o,8,40006).
+v_i(ra,i,9,[]).
+v_i(ra,o,9,40007).
+v_i(ra,i,10,[]).
+v_i(ra,o,10,40008).
+v_i(ra,i,11,[]).
+v_i(ra,o,11,40009).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(12,[ 'CategoryName',char,50,0,'',0,'Category Name','',0 ]).
+attri_i(16,[ 'CityName',char,50,0,'',0,'City Name','',0 ]).
+attri_i(10,[ 'CountryName',char,50,0,'',0,'Country Name','',0 ]).
+attri_i(40009,[ 'CityId',int,4,0,'',0,'',[],0 ]).
+attri_i(40008,[ 'CategoryId',int,4,0,'',0,'',[],0 ]).
+attri_i(40007,[ 'CityId',int,4,0,'',0,'',[],0 ]).
+attri_i(40006,[ 'CountryId',int,4,0,'',0,'',[],0 ]).
+attri_i(40005,[ 'CategoryId',int,4,0,'',0,'',[],0 ]).
+attri_i(40004,[ 'CityId',int,4,0,'',0,'',[],0 ]).
+attri_i(40003,[ 'CountryId',int,4,0,'',0,'',[],0 ]).
+attri_i(40002,[ 'CategoryId',int,4,0,'',0,'',[],0 ]).
+attri_i(11,[ 'CategoryId',int,4,0,'ZZZ9',0,'Category Id','',0 ]).
+attri_i(40001,[ 'CityId',int,4,0,'',0,'',[],0 ]).
+attri_i(15,[ 'CityId',int,4,0,'ZZZ9',0,'City Id','',0 ]).
+attri_i(40000,[ 'CountryId',int,4,0,'',0,'',[],0 ]).
+attri_i(9,[ 'CountryId',int,4,0,'ZZZ9',0,'Country Id','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',8 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',7 ]).
+attri_i('Gxm1attraction',[ 'Gxm1attraction',o('Attraction'),0,0,'',0,'Gxm1attraction','',6 ]).
+attri_i('Gxm2rootcol',[ 'Gxm2rootcol',o(objectcollection('Attraction')),0,0,'',0,'Gxm2rootcol','',5 ]).
+ 
+table_i(4,[ 'Category',[ 11,12 ],'Category','Category' ]).
+table_i(5,[ 'CountryCity',[ 9,15,16 ],'City','CountryCity' ]).
+table_i(3,[ 'Country',[ 9,10 ],'Country','Country' ]).
+table_i(2002,[ 'Category',[ 40002,11 ],'Category','Category' ]).
+table_i(2009,[ 'CountryCity',[ 40009,9,15 ],'City','CountryCity' ]).
+table_i(2000,[ 'Country',[ 40000,9 ],'Country','Country' ]).
+table_i(2008,[ 'Category',[ 40008,11 ],'Category','Category' ]).
+table_i(2007,[ 'CountryCity',[ 40007,9,15 ],'City','CountryCity' ]).
+table_i(2006,[ 'Country',[ 40006,9 ],'Country','Country' ]).
+table_i(2005,[ 'Category',[ 40005,11 ],'Category','Category' ]).
+table_i(2004,[ 'CountryCity',[ 40004,9,15 ],'City','CountryCity' ]).
+table_i(2003,[ 'Country',[ 40003,9 ],'Country','Country' ]).
+table_i(2001,[ 'CountryCity',[ 40001,9,15 ],'City','CountryCity' ]).
+ 
+index_i(3,[ 'ICOUNTRY',u,[ 9 ],'ICountry' ]).
+index_i(5,[ 'ICOUNTRYCITY',u,[ 9,15 ],'ICountryCity' ]).
+index_i(4,[ 'ICATEGORY',u,[ 11 ],'ICategory' ]).
+index_i(2000,[ 'ICOUNTRY',u,[ 9 ],'ICountry' ]).
+index_i(2001,[ 'ICOUNTRYCITY',u,[ 9,15 ],'ICountryCity' ]).
+index_i(2002,[ 'ICATEGORY',u,[ 11 ],'ICategory' ]).
+index_i(2003,[ 'ICOUNTRY',u,[ 9 ],'ICountry' ]).
+index_i(2004,[ 'ICOUNTRYCITY',u,[ 9,15 ],'ICountryCity' ]).
+index_i(2005,[ 'ICATEGORY',u,[ 11 ],'ICategory' ]).
+index_i(2006,[ 'ICOUNTRY',u,[ 9 ],'ICountry' ]).
+index_i(2007,[ 'ICOUNTRYCITY',u,[ 9,15 ],'ICountryCity' ]).
+index_i(2008,[ 'ICATEGORY',u,[ 11 ],'ICategory' ]).
+index_i(2009,[ 'ICOUNTRYCITY',u,[ 9,15 ],'ICountryCity' ]).
+ 
+lv_i(2,2000,3).
+lv_i(2,2001,5).
+lv_i(2,2002,4).
+lv_i(2,2003,3).
+lv_i(2,2004,5).
+lv_i(2,2005,4).
+lv_i(2,2006,3).
+lv_i(2,2007,5).
+lv_i(2,2008,4).
+lv_i(2,2009,5).
+ 
+ 
+ 
+ 
+nav_view_i(2002,[ 40002 ],[],[],[ [ 2002,[] ] ],[ [ [ 4,[ 'min(',11 ] ] ],n,[ [ 4,many ] ],[],[ c([ t(12,2),t(=,10),t('"Museum"',3) ],[ 12 ]) ],[ none ],[],[],[] ]).
+nav_view_i(2009,[ 40009 ],[],[],[ [ 2009,[] ] ],[ [ [ 5,[ 'min(',15 ] ] ],n,[ [ 5,many ] ],[],[ c([ t(16,2),t(=,10),t('"Surabaya"',3) ],[ 16 ]) ],[ none ],[],[],[] ]).
+nav_view_i(2000,[ 40000 ],[],[],[ [ 2000,[] ] ],[ [ [ 3,[ 'min(',9 ] ] ],n,[ [ 3,many ] ],[],[ c([ t(10,2),t(=,10),t('"Indonesia"',3) ],[ 10 ]) ],[ none ],[],[],[] ]).
+nav_view_i(2008,[ 40008 ],[],[],[ [ 2008,[] ] ],[ [ [ 4,[ 'min(',11 ] ] ],n,[ [ 4,many ] ],[],[ c([ t(12,2),t(=,10),t('"Monument"',3) ],[ 12 ]) ],[ none ],[],[],[] ]).
+nav_view_i(2007,[ 40007 ],[],[],[ [ 2007,[] ] ],[ [ [ 5,[ 'min(',15 ] ] ],n,[ [ 5,many ] ],[],[ c([ t(16,2),t(=,10),t('"Sao Paulo"',3) ],[ 16 ]) ],[ none ],[],[],[] ]).
+nav_view_i(2006,[ 40006 ],[],[],[ [ 2006,[] ] ],[ [ [ 3,[ 'min(',9 ] ] ],n,[ [ 3,many ] ],[],[ c([ t(10,2),t(=,10),t('"Brazil"',3) ],[ 10 ]) ],[ none ],[],[],[] ]).
+nav_view_i(2005,[ 40005 ],[],[],[ [ 2005,[] ] ],[ [ [ 4,[ 'min(',11 ] ] ],n,[ [ 4,many ] ],[],[ c([ t(12,2),t(=,10),t('"Tourist site"',3) ],[ 12 ]) ],[ none ],[],[],[] ]).
+nav_view_i(2004,[ 40004 ],[],[],[ [ 2004,[] ] ],[ [ [ 5,[ 'min(',15 ] ] ],n,[ [ 5,many ] ],[],[ c([ t(16,2),t(=,10),t('"Kuala Lumpur"',3) ],[ 16 ]) ],[ none ],[],[],[] ]).
+nav_view_i(2003,[ 40003 ],[],[],[ [ 2003,[] ] ],[ [ [ 3,[ 'min(',9 ] ] ],n,[ [ 3,many ] ],[],[ c([ t(10,2),t(=,10),t('"Malaysia"',3) ],[ 10 ]) ],[ none ],[],[],[] ]).
+nav_view_i(2001,[ 40001 ],[],[],[ [ 2001,[] ] ],[ [ [ 5,[ 'min(',15 ] ] ],n,[ [ 5,many ] ],[],[ c([ t(16,2),t(=,10),t('"Jakarta"',3) ],[ 16 ]) ],[ none ],[],[],[] ]).
+ 
+ 
+agg_def_i(40001,[ t('0',3) ]).
+agg_def_i(40003,[ t('0',3) ]).
+agg_def_i(40004,[ t('0',3) ]).
+agg_def_i(40005,[ t('0',3) ]).
+agg_def_i(40006,[ t('0',3) ]).
+agg_def_i(40007,[ t('0',3) ]).
+agg_def_i(40008,[ t('0',3) ]).
+agg_def_i(40000,[ t('0',3) ]).
+agg_def_i(40009,[ t('0',3) ]).
+agg_def_i(40002,[ t('0',3) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(85,[ 'Id' ]).
+dom_info_i(86,[ 'Name' ]).
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+b_line_i(3,1,1,cmd,3,[ t('',107,3,0),t('Gxm1attraction',23,3,0),t(=,10,3,0),t([ 'Attraction',[ t('(',0,3,0),t(')',4,3,0) ],n ],46,3,0) ]).
+b_line_i([ 3,1 ],1,1,cmd,3,[ t('',107,3,0),t([ t('Gxm2rootcol',23,3,0),t('add(',1,3,0) ],31,3,0),t('Gxm1attraction',23,3,0),t(')',4,3,0) ]).
+b_line_i(5,1,1,cmd,5,[ t('',107,5,0),t([ t('Gxm1attraction',23,5,0),t('Attractionname',3,5,0) ],29,5,0),t(=,10,5,0),t('"Louvre Museum"',3,5,0) ]).
+b_line_i(6,1,1,cmd,5,[ t('',107,6,0),t([ t('Gxm1attraction',23,5,0),t('Countryid',3,5,0) ],29,5,0),t(=,10,5,0),t(40000,2,5,0) ]).
+b_line_i(7,1,1,cmd,5,[ t('',107,7,0),t([ t('Gxm1attraction',23,5,0),t('Cityid',3,5,0) ],29,5,0),t(=,10,5,0),t(40001,2,5,0) ]).
+b_line_i(8,1,1,cmd,5,[ t('',107,8,0),t([ t('Gxm1attraction',23,5,0),t('Categoryid',3,5,0) ],29,5,0),t(=,10,5,0),t(40002,2,5,0) ]).
+b_line_i(9,1,1,cmd,5,[ t('',107,9,0),t([ t('Gxm1attraction',23,5,0),t('Attractionphoto',3,5,0) ],29,5,0),t(=,10,5,0),t([ t(i(98,'f752527e-2cba-4783-914e-495b80bba7c9'),69,5,0),t('link(',1,5,0) ],31,5,0),t(')',4,5,0) ]).
+b_line_i(12,1,1,cmd,5,[ t('',107,12,0),t('Gxm1attraction',23,5,0),t(=,10,5,0),t([ 'Attraction',[ t('(',0,12,0),t(')',4,12,0) ],n ],46,5,0) ]).
+b_line_i([ 12,1 ],1,1,cmd,5,[ t('',107,12,0),t([ t('Gxm2rootcol',23,12,0),t('add(',1,12,0) ],31,12,0),t('Gxm1attraction',23,5,0),t(')',4,5,0) ]).
+b_line_i(14,1,1,cmd,7,[ t('',107,14,0),t([ t('Gxm1attraction',23,7,0),t('Attractionname',3,7,0) ],29,7,0),t(=,10,7,0),t('"The Great Wall"',3,7,0) ]).
+b_line_i(15,1,1,cmd,7,[ t('',107,15,0),t([ t('Gxm1attraction',23,7,0),t('Countryid',3,7,0) ],29,7,0),t(=,10,7,0),t(40003,2,7,0) ]).
+b_line_i(16,1,1,cmd,7,[ t('',107,16,0),t([ t('Gxm1attraction',23,7,0),t('Cityid',3,7,0) ],29,7,0),t(=,10,7,0),t(40004,2,7,0) ]).
+b_line_i(17,1,1,cmd,7,[ t('',107,17,0),t([ t('Gxm1attraction',23,7,0),t('Categoryid',3,7,0) ],29,7,0),t(=,10,7,0),t(40005,2,7,0) ]).
+b_line_i(18,1,1,cmd,7,[ t('',107,18,0),t([ t('Gxm1attraction',23,7,0),t('Attractionphoto',3,7,0) ],29,7,0),t(=,10,7,0),t([ t(i(98,'f252ced7-f6b6-4138-82fb-c2ff57800096'),69,7,0),t('link(',1,7,0) ],31,7,0),t(')',4,7,0) ]).
+b_line_i(21,1,1,cmd,7,[ t('',107,21,0),t('Gxm1attraction',23,7,0),t(=,10,7,0),t([ 'Attraction',[ t('(',0,21,0),t(')',4,21,0) ],n ],46,7,0) ]).
+b_line_i([ 21,1 ],1,1,cmd,7,[ t('',107,21,0),t([ t('Gxm2rootcol',23,21,0),t('add(',1,21,0) ],31,21,0),t('Gxm1attraction',23,7,0),t(')',4,7,0) ]).
+b_line_i(23,1,1,cmd,9,[ t('',107,23,0),t([ t('Gxm1attraction',23,9,0),t('Attractionname',3,9,0) ],29,9,0),t(=,10,9,0),t('"Eiffel Tower"',3,9,0) ]).
+b_line_i(24,1,1,cmd,9,[ t('',107,24,0),t([ t('Gxm1attraction',23,9,0),t('Countryid',3,9,0) ],29,9,0),t(=,10,9,0),t(40006,2,9,0) ]).
+b_line_i(25,1,1,cmd,9,[ t('',107,25,0),t([ t('Gxm1attraction',23,9,0),t('Cityid',3,9,0) ],29,9,0),t(=,10,9,0),t(40007,2,9,0) ]).
+b_line_i(26,1,1,cmd,9,[ t('',107,26,0),t([ t('Gxm1attraction',23,9,0),t('Categoryid',3,9,0) ],29,9,0),t(=,10,9,0),t(40008,2,9,0) ]).
+b_line_i(27,1,1,cmd,9,[ t('',107,27,0),t([ t('Gxm1attraction',23,9,0),t('Attractionphoto',3,9,0) ],29,9,0),t(=,10,9,0),t([ t(i(98,'f3370015-da97-4cc8-9a83-60448fa1f8d8'),69,9,0),t('link(',1,9,0) ],31,9,0),t(')',4,9,0) ]).
+b_line_i(30,1,1,cmd,9,[ t('',107,30,0),t('Gxm1attraction',23,9,0),t(=,10,9,0),t([ 'Attraction',[ t('(',0,30,0),t(')',4,30,0) ],n ],46,9,0) ]).
+b_line_i([ 30,1 ],1,1,cmd,9,[ t('',107,30,0),t([ t('Gxm2rootcol',23,30,0),t('add(',1,30,0) ],31,30,0),t('Gxm1attraction',23,9,0),t(')',4,9,0) ]).
+b_line_i(32,1,1,cmd,11,[ t('',107,32,0),t([ t('Gxm1attraction',23,11,0),t('Attractionname',3,11,0) ],29,11,0),t(=,10,11,0),t('"Christ the Redemmer"',3,11,0) ]).
+b_line_i(33,1,1,cmd,11,[ t('',107,33,0),t([ t('Gxm1attraction',23,11,0),t('Countryid',3,11,0) ],29,11,0),t(=,10,11,0),t(40000,2,11,0) ]).
+b_line_i(34,1,1,cmd,11,[ t('',107,34,0),t([ t('Gxm1attraction',23,11,0),t('Cityid',3,11,0) ],29,11,0),t(=,10,11,0),t(40009,2,11,0) ]).
+b_line_i(35,1,1,cmd,11,[ t('',107,35,0),t([ t('Gxm1attraction',23,11,0),t('Categoryid',3,11,0) ],29,11,0),t(=,10,11,0),t(40002,2,11,0) ]).
+b_line_i(36,1,1,cmd,11,[ t('',107,36,0),t([ t('Gxm1attraction',23,11,0),t('Attractionphoto',3,11,0) ],29,11,0),t(=,10,11,0),t([ t(i(98,'19296ed5-d328-4e94-ae5e-6770ff27c174'),69,11,0),t('link(',1,11,0) ],31,11,0),t(')',4,11,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,9,'ExternalName','CountryId',d).
+att_prop_i(2,9,'ExternalNamespace','Traveling',d).
+att_prop_i(2,9,'EmptyAsNull','Yes',d).
+att_prop_i(2,9,idBasedOn,85,v).
+att_prop_i(2,9,'AUTONUMBER','-1',v).
+att_prop_i(2,9,'AUTONUMBER_START','1',d).
+att_prop_i(2,9,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,9,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,9,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,9,'AttRegEx','',d).
+att_prop_i(2,9,'AttValidationFailedMsg','',d).
+att_prop_i(2,9,'DownloadOffline','0',d).
+att_prop_i(2,9,'VarServiceExtName','',d).
+att_prop_i(2,9,'FullName','CountryId',v).
+att_prop_i(2,15,'ExternalName','CityId',d).
+att_prop_i(2,15,'ExternalNamespace','Traveling',d).
+att_prop_i(2,15,'EmptyAsNull','Yes',d).
+att_prop_i(2,15,idBasedOn,85,v).
+att_prop_i(2,15,'AUTONUMBER','-1',v).
+att_prop_i(2,15,'AUTONUMBER_START','1',d).
+att_prop_i(2,15,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,15,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,15,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,15,'AttRegEx','',d).
+att_prop_i(2,15,'AttValidationFailedMsg','',d).
+att_prop_i(2,15,'DownloadOffline','0',d).
+att_prop_i(2,15,'VarServiceExtName','',d).
+att_prop_i(2,15,'FullName','CityId',v).
+att_prop_i(2,11,'ExternalName','CategoryId',d).
+att_prop_i(2,11,'ExternalNamespace','Traveling',d).
+att_prop_i(2,11,'EmptyAsNull','Yes',d).
+att_prop_i(2,11,idBasedOn,85,v).
+att_prop_i(2,11,'AUTONUMBER','-1',v).
+att_prop_i(2,11,'AUTONUMBER_START','1',d).
+att_prop_i(2,11,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,11,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,11,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,11,'AttRegEx','',d).
+att_prop_i(2,11,'AttValidationFailedMsg','',d).
+att_prop_i(2,11,'DownloadOffline','0',d).
+att_prop_i(2,11,'VarServiceExtName','',d).
+att_prop_i(2,11,'FullName','CategoryId',v).
+att_prop_i(2,10,'ExternalName','CountryName',d).
+att_prop_i(2,10,'ExternalNamespace','Traveling',d).
+att_prop_i(2,10,'EmptyAsNull','Yes',d).
+att_prop_i(2,10,idBasedOn,86,v).
+att_prop_i(2,10,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,10,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,10,'AttRegEx','',d).
+att_prop_i(2,10,'AttValidationFailedMsg','',d).
+att_prop_i(2,10,'DownloadOffline','0',d).
+att_prop_i(2,10,'VarServiceExtName','',d).
+att_prop_i(2,10,'FullName','CountryName',v).
+att_prop_i(2,16,'ExternalName','CityName',d).
+att_prop_i(2,16,'ExternalNamespace','Traveling',d).
+att_prop_i(2,16,'EmptyAsNull','Yes',d).
+att_prop_i(2,16,idBasedOn,86,v).
+att_prop_i(2,16,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,16,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,16,'AttRegEx','',d).
+att_prop_i(2,16,'AttValidationFailedMsg','',d).
+att_prop_i(2,16,'DownloadOffline','0',d).
+att_prop_i(2,16,'VarServiceExtName','',d).
+att_prop_i(2,16,'FullName','CityName',v).
+att_prop_i(2,12,'ExternalName','CategoryName',d).
+att_prop_i(2,12,'ExternalNamespace','Traveling',d).
+att_prop_i(2,12,'EmptyAsNull','Yes',d).
+att_prop_i(2,12,idBasedOn,86,v).
+att_prop_i(2,12,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,12,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,12,'AttRegEx','',d).
+att_prop_i(2,12,'AttValidationFailedMsg','',d).
+att_prop_i(2,12,'DownloadOffline','0',d).
+att_prop_i(2,12,'VarServiceExtName','',d).
+att_prop_i(2,12,'FullName','CategoryName',v).
+att_prop_i(2,40000,'ExternalName','CountryId',d).
+att_prop_i(2,40000,'ExternalNamespace','Traveling',d).
+att_prop_i(2,40000,'EmptyAsNull','Yes',d).
+att_prop_i(2,40000,idBasedOn,85,v).
+att_prop_i(2,40000,'AUTONUMBER','-1',v).
+att_prop_i(2,40000,'AUTONUMBER_START','1',d).
+att_prop_i(2,40000,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,40000,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,40000,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40000,'AttRegEx','',d).
+att_prop_i(2,40000,'AttValidationFailedMsg','',d).
+att_prop_i(2,40000,'DownloadOffline','0',d).
+att_prop_i(2,40000,'VarServiceExtName','',d).
+att_prop_i(2,40000,'FullName','CountryId',v).
+att_prop_i(2,40001,'ExternalName','CityId',d).
+att_prop_i(2,40001,'ExternalNamespace','Traveling',d).
+att_prop_i(2,40001,'EmptyAsNull','Yes',d).
+att_prop_i(2,40001,idBasedOn,85,v).
+att_prop_i(2,40001,'AUTONUMBER','-1',v).
+att_prop_i(2,40001,'AUTONUMBER_START','1',d).
+att_prop_i(2,40001,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,40001,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,40001,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40001,'AttRegEx','',d).
+att_prop_i(2,40001,'AttValidationFailedMsg','',d).
+att_prop_i(2,40001,'DownloadOffline','0',d).
+att_prop_i(2,40001,'VarServiceExtName','',d).
+att_prop_i(2,40001,'FullName','CityId',v).
+att_prop_i(2,40002,'ExternalName','CategoryId',d).
+att_prop_i(2,40002,'ExternalNamespace','Traveling',d).
+att_prop_i(2,40002,'EmptyAsNull','Yes',d).
+att_prop_i(2,40002,idBasedOn,85,v).
+att_prop_i(2,40002,'AUTONUMBER','-1',v).
+att_prop_i(2,40002,'AUTONUMBER_START','1',d).
+att_prop_i(2,40002,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,40002,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,40002,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40002,'AttRegEx','',d).
+att_prop_i(2,40002,'AttValidationFailedMsg','',d).
+att_prop_i(2,40002,'DownloadOffline','0',d).
+att_prop_i(2,40002,'VarServiceExtName','',d).
+att_prop_i(2,40002,'FullName','CategoryId',v).
+att_prop_i(2,40003,'ExternalName','CountryId',d).
+att_prop_i(2,40003,'ExternalNamespace','Traveling',d).
+att_prop_i(2,40003,'EmptyAsNull','Yes',d).
+att_prop_i(2,40003,idBasedOn,85,v).
+att_prop_i(2,40003,'AUTONUMBER','-1',v).
+att_prop_i(2,40003,'AUTONUMBER_START','1',d).
+att_prop_i(2,40003,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,40003,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,40003,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40003,'AttRegEx','',d).
+att_prop_i(2,40003,'AttValidationFailedMsg','',d).
+att_prop_i(2,40003,'DownloadOffline','0',d).
+att_prop_i(2,40003,'VarServiceExtName','',d).
+att_prop_i(2,40003,'FullName','CountryId',v).
+att_prop_i(2,40004,'ExternalName','CityId',d).
+att_prop_i(2,40004,'ExternalNamespace','Traveling',d).
+att_prop_i(2,40004,'EmptyAsNull','Yes',d).
+att_prop_i(2,40004,idBasedOn,85,v).
+att_prop_i(2,40004,'AUTONUMBER','-1',v).
+att_prop_i(2,40004,'AUTONUMBER_START','1',d).
+att_prop_i(2,40004,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,40004,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,40004,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40004,'AttRegEx','',d).
+att_prop_i(2,40004,'AttValidationFailedMsg','',d).
+att_prop_i(2,40004,'DownloadOffline','0',d).
+att_prop_i(2,40004,'VarServiceExtName','',d).
+att_prop_i(2,40004,'FullName','CityId',v).
+att_prop_i(2,40005,'ExternalName','CategoryId',d).
+att_prop_i(2,40005,'ExternalNamespace','Traveling',d).
+att_prop_i(2,40005,'EmptyAsNull','Yes',d).
+att_prop_i(2,40005,idBasedOn,85,v).
+att_prop_i(2,40005,'AUTONUMBER','-1',v).
+att_prop_i(2,40005,'AUTONUMBER_START','1',d).
+att_prop_i(2,40005,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,40005,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,40005,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40005,'AttRegEx','',d).
+att_prop_i(2,40005,'AttValidationFailedMsg','',d).
+att_prop_i(2,40005,'DownloadOffline','0',d).
+att_prop_i(2,40005,'VarServiceExtName','',d).
+att_prop_i(2,40005,'FullName','CategoryId',v).
+att_prop_i(2,40006,'ExternalName','CountryId',d).
+att_prop_i(2,40006,'ExternalNamespace','Traveling',d).
+att_prop_i(2,40006,'EmptyAsNull','Yes',d).
+att_prop_i(2,40006,idBasedOn,85,v).
+att_prop_i(2,40006,'AUTONUMBER','-1',v).
+att_prop_i(2,40006,'AUTONUMBER_START','1',d).
+att_prop_i(2,40006,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,40006,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,40006,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40006,'AttRegEx','',d).
+att_prop_i(2,40006,'AttValidationFailedMsg','',d).
+att_prop_i(2,40006,'DownloadOffline','0',d).
+att_prop_i(2,40006,'VarServiceExtName','',d).
+att_prop_i(2,40006,'FullName','CountryId',v).
+att_prop_i(2,40007,'ExternalName','CityId',d).
+att_prop_i(2,40007,'ExternalNamespace','Traveling',d).
+att_prop_i(2,40007,'EmptyAsNull','Yes',d).
+att_prop_i(2,40007,idBasedOn,85,v).
+att_prop_i(2,40007,'AUTONUMBER','-1',v).
+att_prop_i(2,40007,'AUTONUMBER_START','1',d).
+att_prop_i(2,40007,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,40007,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,40007,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40007,'AttRegEx','',d).
+att_prop_i(2,40007,'AttValidationFailedMsg','',d).
+att_prop_i(2,40007,'DownloadOffline','0',d).
+att_prop_i(2,40007,'VarServiceExtName','',d).
+att_prop_i(2,40007,'FullName','CityId',v).
+att_prop_i(2,40008,'ExternalName','CategoryId',d).
+att_prop_i(2,40008,'ExternalNamespace','Traveling',d).
+att_prop_i(2,40008,'EmptyAsNull','Yes',d).
+att_prop_i(2,40008,idBasedOn,85,v).
+att_prop_i(2,40008,'AUTONUMBER','-1',v).
+att_prop_i(2,40008,'AUTONUMBER_START','1',d).
+att_prop_i(2,40008,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,40008,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,40008,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40008,'AttRegEx','',d).
+att_prop_i(2,40008,'AttValidationFailedMsg','',d).
+att_prop_i(2,40008,'DownloadOffline','0',d).
+att_prop_i(2,40008,'VarServiceExtName','',d).
+att_prop_i(2,40008,'FullName','CategoryId',v).
+att_prop_i(2,40009,'ExternalName','CityId',d).
+att_prop_i(2,40009,'ExternalNamespace','Traveling',d).
+att_prop_i(2,40009,'EmptyAsNull','Yes',d).
+att_prop_i(2,40009,idBasedOn,85,v).
+att_prop_i(2,40009,'AUTONUMBER','-1',v).
+att_prop_i(2,40009,'AUTONUMBER_START','1',d).
+att_prop_i(2,40009,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,40009,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,40009,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40009,'AttRegEx','',d).
+att_prop_i(2,40009,'AttValidationFailedMsg','',d).
+att_prop_i(2,40009,'DownloadOffline','0',d).
+att_prop_i(2,40009,'VarServiceExtName','',d).
+att_prop_i(2,40009,'FullName','CityId',v).
+ 
+tbl_prop_i(2,2009,'AllDirSuper',[ [ 3,[ 9 ] ] ],v).
+tbl_prop_i(2,2007,'AllDirSuper',[ [ 3,[ 9 ] ] ],v).
+tbl_prop_i(2,2004,'AllDirSuper',[ [ 3,[ 9 ] ] ],v).
+tbl_prop_i(2,2001,'AllDirSuper',[ [ 3,[ 9 ] ] ],v).
+tbl_prop_i(2,5,'AllDirSuper',[ [ 3,[ 9 ] ] ],v).
+tbl_prop_i(2,2006,'DirSubor',[ [ 5,[ 9 ] ] ],v).
+tbl_prop_i(2,2003,'DirSubor',[ [ 5,[ 9 ] ] ],v).
+tbl_prop_i(2,2000,'DirSubor',[ [ 5,[ 9 ] ] ],v).
+tbl_prop_i(2,3,'DirSubor',[ [ 5,[ 9 ] ] ],v).
+tbl_prop_i(2,2009,'DirSuper',[ [ 3,[ 9 ] ] ],v).
+tbl_prop_i(2,2007,'DirSuper',[ [ 3,[ 9 ] ] ],v).
+tbl_prop_i(2,2004,'DirSuper',[ [ 3,[ 9 ] ] ],v).
+tbl_prop_i(2,2001,'DirSuper',[ [ 3,[ 9 ] ] ],v).
+tbl_prop_i(2,5,'DirSuper',[ [ 3,[ 9 ] ] ],v).
+ 
+tbl_att_prop_i(2,3,9,'AllowNulls',n).
+tbl_att_prop_i(2,3,9,'AUTONUMBER',y).
+tbl_att_prop_i(2,3,10,'AllowNulls',n).
+tbl_att_prop_i(2,5,9,'AllowNulls',n).
+tbl_att_prop_i(2,5,15,'AllowNulls',n).
+tbl_att_prop_i(2,5,16,'AllowNulls',n).
+tbl_att_prop_i(2,4,11,'AllowNulls',n).
+tbl_att_prop_i(2,4,11,'AUTONUMBER',y).
+tbl_att_prop_i(2,4,12,'AllowNulls',n).
+tbl_att_prop_i(2,2000,9,'AllowNulls',n).
+tbl_att_prop_i(2,2000,9,'AUTONUMBER',y).
+tbl_att_prop_i(2,2001,9,'AllowNulls',n).
+tbl_att_prop_i(2,2001,15,'AllowNulls',n).
+tbl_att_prop_i(2,2002,11,'AllowNulls',n).
+tbl_att_prop_i(2,2002,11,'AUTONUMBER',y).
+tbl_att_prop_i(2,2003,9,'AllowNulls',n).
+tbl_att_prop_i(2,2003,9,'AUTONUMBER',y).
+tbl_att_prop_i(2,2004,9,'AllowNulls',n).
+tbl_att_prop_i(2,2004,15,'AllowNulls',n).
+tbl_att_prop_i(2,2005,11,'AllowNulls',n).
+tbl_att_prop_i(2,2005,11,'AUTONUMBER',y).
+tbl_att_prop_i(2,2006,9,'AllowNulls',n).
+tbl_att_prop_i(2,2006,9,'AUTONUMBER',y).
+tbl_att_prop_i(2,2007,9,'AllowNulls',n).
+tbl_att_prop_i(2,2007,15,'AllowNulls',n).
+tbl_att_prop_i(2,2008,11,'AllowNulls',n).
+tbl_att_prop_i(2,2008,11,'AUTONUMBER',y).
+tbl_att_prop_i(2,2009,9,'AllowNulls',n).
+tbl_att_prop_i(2,2009,15,'AllowNulls',n).
+ 
+ 
+ 
+ 
+a_alias_i([ 'min(',9 ],'CountryId').
+a_alias_i(se(40000,[ [ 2000,40000 ] ],[ t('coalesce(',1),t(40000,2),t(',',7),t('0',3),t(')',4) ]),'CountryId').
+a_alias_i([ 'min(',15 ],'CityId').
+a_alias_i(se(40001,[ [ 2001,40001 ] ],[ t('coalesce(',1),t(40001,2),t(',',7),t('0',3),t(')',4) ]),'CityId').
+a_alias_i([ 'min(',11 ],'CategoryId').
+a_alias_i(se(40002,[ [ 2002,40002 ] ],[ t('coalesce(',1),t(40002,2),t(',',7),t('0',3),t(')',4) ]),'CategoryId').
+a_alias_i(se(40003,[ [ 2003,40003 ] ],[ t('coalesce(',1),t(40003,2),t(',',7),t('0',3),t(')',4) ]),'CountryId').
+a_alias_i(se(40004,[ [ 2004,40004 ] ],[ t('coalesce(',1),t(40004,2),t(',',7),t('0',3),t(')',4) ]),'CityId').
+a_alias_i(se(40005,[ [ 2005,40005 ] ],[ t('coalesce(',1),t(40005,2),t(',',7),t('0',3),t(')',4) ]),'CategoryId').
+a_alias_i(se(40006,[ [ 2006,40006 ] ],[ t('coalesce(',1),t(40006,2),t(',',7),t('0',3),t(')',4) ]),'CountryId').
+a_alias_i(se(40007,[ [ 2007,40007 ] ],[ t('coalesce(',1),t(40007,2),t(',',7),t('0',3),t(')',4) ]),'CityId').
+a_alias_i(se(40008,[ [ 2008,40008 ] ],[ t('coalesce(',1),t(40008,2),t(',',7),t('0',3),t(')',4) ]),'CategoryId').
+a_alias_i(se(40009,[ [ 2009,40009 ] ],[ t('coalesce(',1),t(40009,2),t(',',7),t('0',3),t(')',4) ]),'CityId').
+ 
+ 
+struct_dt_i([ 0,2,0 ],name,'Attraction').
+struct_dt_i([ 0,2,0 ],namespace,'Traveling').
+struct_dt_i([ 0,2,0 ],significantName,'Attraction').
+struct_dt_i([ 0,2,0 ],'ObjName','Attraction').
+struct_dt_i([ 0,2,0 ],'ObjDesc','Attraction').
+struct_dt_i([ 0,2,0 ],'ExternalName','Attraction').
+struct_dt_i([ 0,2,0 ],'ExternalNamespace','Traveling').
+struct_dt_i([ 0,2,0 ],key,[ 7 ]).
+struct_dt_i([ 0,2,0 ],lvl,2).
+struct_dt_i([ 26,13,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,13,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,13,0 ],'ObjName','Messages').
+struct_dt_i([ 26,13,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,13,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,13,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,13,0 ],collection,'True').
+struct_dt_i([ 26,13,0 ],datatype,[ 26,13,30 ]).
+struct_dt_i([ 26,13,0 ],'CollectionItemName','Message').
+struct_dt_i([ 26,13,0 ],'XmlName','').
+struct_dt_i([ 26,13,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,13,0 ],'XmlNamespace','').
+struct_dt_i([ 26,13,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,13,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,13,0 ],'JsonName','').
+struct_dt_i([ 26,13,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,13,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,13,0 ],isexternal,'True').
+struct_dt_i([ 26,13,30 ],name,'Message').
+struct_dt_i([ 26,13,30 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 0,2,0 ],fullname,'Attraction').
+struct_dt_i([ 26,13,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,13,30 ],fullname,'GeneXus\Common\Messages.Message').
+struct_dt_i([ 0,2,0 ],camelname,'Attraction').
+struct_dt_i([ 26,13,0 ],camelname,'Genexus\common\messages').
+struct_dt_i([ 26,13,30 ],camelname,'Message').
+ 
+struct_dt_elem_i([ 0,2,0 ],1,name,'Attractionid').
+struct_dt_elem_i([ 0,2,0 ],1,camelname,'AttractionId').
+struct_dt_elem_i([ 0,2,0 ],1,basedon,85).
+struct_dt_elem_i([ 0,2,0 ],1,length,4).
+struct_dt_elem_i([ 0,2,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],1,sign,0).
+struct_dt_elem_i([ 0,2,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,2,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 0,2,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],1,attributeid,'7').
+struct_dt_elem_i([ 0,2,0 ],1,'ExternalName','AttractionId').
+struct_dt_elem_i([ 0,2,0 ],1,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 0,2,0 ],2,name,'Attractionname').
+struct_dt_elem_i([ 0,2,0 ],2,camelname,'AttractionName').
+struct_dt_elem_i([ 0,2,0 ],2,basedon,86).
+struct_dt_elem_i([ 0,2,0 ],2,length,50).
+struct_dt_elem_i([ 0,2,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],2,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 0,2,0 ],2,pic,'').
+struct_dt_elem_i([ 0,2,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],2,attributeid,'8').
+struct_dt_elem_i([ 0,2,0 ],2,'ExternalName','AttractionName').
+struct_dt_elem_i([ 0,2,0 ],2,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 0,2,0 ],3,name,'Countryid').
+struct_dt_elem_i([ 0,2,0 ],3,camelname,'CountryId').
+struct_dt_elem_i([ 0,2,0 ],3,basedon,85).
+struct_dt_elem_i([ 0,2,0 ],3,length,4).
+struct_dt_elem_i([ 0,2,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],3,sign,0).
+struct_dt_elem_i([ 0,2,0 ],3,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,2,0 ],3,pic,'ZZZ9').
+struct_dt_elem_i([ 0,2,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],3,attributeid,'9').
+struct_dt_elem_i([ 0,2,0 ],3,'ExternalName','CountryId').
+struct_dt_elem_i([ 0,2,0 ],3,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 0,2,0 ],4,name,'Countryname').
+struct_dt_elem_i([ 0,2,0 ],4,camelname,'CountryName').
+struct_dt_elem_i([ 0,2,0 ],4,basedon,86).
+struct_dt_elem_i([ 0,2,0 ],4,length,50).
+struct_dt_elem_i([ 0,2,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],4,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 0,2,0 ],4,pic,'').
+struct_dt_elem_i([ 0,2,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],4,attributeid,'10').
+struct_dt_elem_i([ 0,2,0 ],4,'ExternalName','CountryName').
+struct_dt_elem_i([ 0,2,0 ],4,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 0,2,0 ],5,name,'Cityid').
+struct_dt_elem_i([ 0,2,0 ],5,camelname,'CityId').
+struct_dt_elem_i([ 0,2,0 ],5,basedon,85).
+struct_dt_elem_i([ 0,2,0 ],5,length,4).
+struct_dt_elem_i([ 0,2,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],5,sign,0).
+struct_dt_elem_i([ 0,2,0 ],5,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,2,0 ],5,pic,'ZZZ9').
+struct_dt_elem_i([ 0,2,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],5,attributeid,'15').
+struct_dt_elem_i([ 0,2,0 ],5,'ExternalName','CityId').
+struct_dt_elem_i([ 0,2,0 ],5,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 0,2,0 ],6,name,'Cityname').
+struct_dt_elem_i([ 0,2,0 ],6,camelname,'CityName').
+struct_dt_elem_i([ 0,2,0 ],6,basedon,86).
+struct_dt_elem_i([ 0,2,0 ],6,length,50).
+struct_dt_elem_i([ 0,2,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],6,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 0,2,0 ],6,pic,'').
+struct_dt_elem_i([ 0,2,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],6,attributeid,'16').
+struct_dt_elem_i([ 0,2,0 ],6,'ExternalName','CityName').
+struct_dt_elem_i([ 0,2,0 ],6,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 0,2,0 ],7,name,'Categoryid').
+struct_dt_elem_i([ 0,2,0 ],7,camelname,'CategoryId').
+struct_dt_elem_i([ 0,2,0 ],7,basedon,85).
+struct_dt_elem_i([ 0,2,0 ],7,length,4).
+struct_dt_elem_i([ 0,2,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],7,sign,0).
+struct_dt_elem_i([ 0,2,0 ],7,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,2,0 ],7,pic,'ZZZ9').
+struct_dt_elem_i([ 0,2,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],7,attributeid,'11').
+struct_dt_elem_i([ 0,2,0 ],7,'ExternalName','CategoryId').
+struct_dt_elem_i([ 0,2,0 ],7,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 0,2,0 ],8,name,'Categoryname').
+struct_dt_elem_i([ 0,2,0 ],8,camelname,'CategoryName').
+struct_dt_elem_i([ 0,2,0 ],8,basedon,86).
+struct_dt_elem_i([ 0,2,0 ],8,length,50).
+struct_dt_elem_i([ 0,2,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],8,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 0,2,0 ],8,pic,'').
+struct_dt_elem_i([ 0,2,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],8,attributeid,'12').
+struct_dt_elem_i([ 0,2,0 ],8,'ExternalName','CategoryName').
+struct_dt_elem_i([ 0,2,0 ],8,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 0,2,0 ],9,name,'Attractionphoto').
+struct_dt_elem_i([ 0,2,0 ],9,camelname,'AttractionPhoto').
+struct_dt_elem_i([ 0,2,0 ],9,length,4).
+struct_dt_elem_i([ 0,2,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],9,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 0,2,0 ],9,pic,'').
+struct_dt_elem_i([ 0,2,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],9,attributeid,'13').
+struct_dt_elem_i([ 0,2,0 ],9,'ExternalName','AttractionPhoto').
+struct_dt_elem_i([ 0,2,0 ],9,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 0,2,0 ],10,name,'Attractionphoto_gxi').
+struct_dt_elem_i([ 0,2,0 ],10,camelname,'AttractionPhoto_GXI').
+struct_dt_elem_i([ 0,2,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],10,isadd,'True').
+struct_dt_elem_i([ 0,2,0 ],10,length,2048).
+struct_dt_elem_i([ 0,2,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],10,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 0,2,0 ],11,name,'Attractionaddress').
+struct_dt_elem_i([ 0,2,0 ],11,camelname,'AttractionAddress').
+struct_dt_elem_i([ 0,2,0 ],11,basedon,42).
+struct_dt_elem_i([ 0,2,0 ],11,length,1024).
+struct_dt_elem_i([ 0,2,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],11,type,[ 13,1024,0 ]).
+struct_dt_elem_i([ 0,2,0 ],11,pic,'').
+struct_dt_elem_i([ 0,2,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],11,attributeid,'18').
+struct_dt_elem_i([ 0,2,0 ],11,'ExternalName','AttractionAddress').
+struct_dt_elem_i([ 0,2,0 ],11,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 26,13,30 ],1,name,'Id').
+struct_dt_elem_i([ 26,13,30 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,13,30 ],1,length,128).
+struct_dt_elem_i([ 26,13,30 ],1,decimals,0).
+struct_dt_elem_i([ 26,13,30 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,13,30 ],1,pic,'').
+struct_dt_elem_i([ 26,13,30 ],1,collection,'False').
+struct_dt_elem_i([ 26,13,30 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,13,30 ],1,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlName','').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,30 ],1,soaptype,'').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,30 ],1,'JsonName','').
+struct_dt_elem_i([ 26,13,30 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,13,30 ],2,name,'Type').
+struct_dt_elem_i([ 26,13,30 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,13,30 ],2,basedon,49).
+struct_dt_elem_i([ 26,13,30 ],2,length,2).
+struct_dt_elem_i([ 26,13,30 ],2,decimals,0).
+struct_dt_elem_i([ 26,13,30 ],2,sign,0).
+struct_dt_elem_i([ 26,13,30 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,13,30 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,13,30 ],2,collection,'False').
+struct_dt_elem_i([ 26,13,30 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,13,30 ],2,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlName','').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,30 ],2,soaptype,'').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,30 ],2,'JsonName','').
+struct_dt_elem_i([ 26,13,30 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,13,30 ],3,name,'Description').
+struct_dt_elem_i([ 26,13,30 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,13,30 ],3,length,256).
+struct_dt_elem_i([ 26,13,30 ],3,decimals,0).
+struct_dt_elem_i([ 26,13,30 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,13,30 ],3,pic,'').
+struct_dt_elem_i([ 26,13,30 ],3,collection,'False').
+struct_dt_elem_i([ 26,13,30 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,13,30 ],3,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlName','').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,30 ],3,soaptype,'').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,30 ],3,'JsonName','').
+struct_dt_elem_i([ 26,13,30 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 0,2,0 ],11,pic,'ZZZ9').
+struct_dt_elem_i([ 26,13,30 ],2,pic,'99/99/99').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(mnproc,5,'ATTRACTION_DP','INTERNAL','').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\anumberofattractionbycountry.dll
+C:\KB\Traveling\CSharpModel\build\anumberofattractionbycountry\obj\Release\anumberofattractionbycountry.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\anumberofattractionbycountry\obj\Release\anumberofattractionbycountry.dll

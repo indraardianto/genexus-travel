@@ -1,0 +1,146 @@
+ 
+spec_i([ sdt,[ 0,2,0 ],'Attraction','Attraction',0,eng,'17_0_8-158023' ]).
+ 
+struct_dt_i([ 0,2,0 ],name,'Attraction').
+struct_dt_i([ 0,2,0 ],namespace,'Traveling').
+struct_dt_i([ 0,2,0 ],significantName,'Attraction').
+struct_dt_i([ 0,2,0 ],'ObjName','Attraction').
+struct_dt_i([ 0,2,0 ],'ObjDesc','Attraction').
+struct_dt_i([ 0,2,0 ],'ExternalName','Attraction').
+struct_dt_i([ 0,2,0 ],'ExternalNamespace','Traveling').
+struct_dt_i([ 0,2,0 ],key,[ 7 ]).
+struct_dt_i([ 0,2,0 ],lvl,2).
+struct_dt_i([ 0,2,0 ],fullname,'Attraction').
+ 
+struct_dt_elem_i([ 0,2,0 ],1,name,'Attractionid').
+struct_dt_elem_i([ 0,2,0 ],1,camelname,'AttractionId').
+struct_dt_elem_i([ 0,2,0 ],1,basedon,85).
+struct_dt_elem_i([ 0,2,0 ],1,length,4).
+struct_dt_elem_i([ 0,2,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],1,sign,0).
+struct_dt_elem_i([ 0,2,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,2,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 0,2,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],1,attributeid,'7').
+struct_dt_elem_i([ 0,2,0 ],1,'ExternalName','AttractionId').
+struct_dt_elem_i([ 0,2,0 ],1,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 0,2,0 ],2,name,'Attractionname').
+struct_dt_elem_i([ 0,2,0 ],2,camelname,'AttractionName').
+struct_dt_elem_i([ 0,2,0 ],2,basedon,86).
+struct_dt_elem_i([ 0,2,0 ],2,length,50).
+struct_dt_elem_i([ 0,2,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],2,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 0,2,0 ],2,pic,'').
+struct_dt_elem_i([ 0,2,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],2,attributeid,'8').
+struct_dt_elem_i([ 0,2,0 ],2,'ExternalName','AttractionName').
+struct_dt_elem_i([ 0,2,0 ],2,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 0,2,0 ],3,name,'Countryid').
+struct_dt_elem_i([ 0,2,0 ],3,camelname,'CountryId').
+struct_dt_elem_i([ 0,2,0 ],3,basedon,85).
+struct_dt_elem_i([ 0,2,0 ],3,length,4).
+struct_dt_elem_i([ 0,2,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],3,sign,0).
+struct_dt_elem_i([ 0,2,0 ],3,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,2,0 ],3,pic,'ZZZ9').
+struct_dt_elem_i([ 0,2,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],3,attributeid,'9').
+struct_dt_elem_i([ 0,2,0 ],3,'ExternalName','CountryId').
+struct_dt_elem_i([ 0,2,0 ],3,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 0,2,0 ],4,name,'Countryname').
+struct_dt_elem_i([ 0,2,0 ],4,camelname,'CountryName').
+struct_dt_elem_i([ 0,2,0 ],4,basedon,86).
+struct_dt_elem_i([ 0,2,0 ],4,length,50).
+struct_dt_elem_i([ 0,2,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],4,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 0,2,0 ],4,pic,'').
+struct_dt_elem_i([ 0,2,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],4,attributeid,'10').
+struct_dt_elem_i([ 0,2,0 ],4,'ExternalName','CountryName').
+struct_dt_elem_i([ 0,2,0 ],4,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 0,2,0 ],5,name,'Cityid').
+struct_dt_elem_i([ 0,2,0 ],5,camelname,'CityId').
+struct_dt_elem_i([ 0,2,0 ],5,basedon,85).
+struct_dt_elem_i([ 0,2,0 ],5,length,4).
+struct_dt_elem_i([ 0,2,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],5,sign,0).
+struct_dt_elem_i([ 0,2,0 ],5,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,2,0 ],5,pic,'ZZZ9').
+struct_dt_elem_i([ 0,2,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],5,attributeid,'15').
+struct_dt_elem_i([ 0,2,0 ],5,'ExternalName','CityId').
+struct_dt_elem_i([ 0,2,0 ],5,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 0,2,0 ],6,name,'Cityname').
+struct_dt_elem_i([ 0,2,0 ],6,camelname,'CityName').
+struct_dt_elem_i([ 0,2,0 ],6,basedon,86).
+struct_dt_elem_i([ 0,2,0 ],6,length,50).
+struct_dt_elem_i([ 0,2,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],6,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 0,2,0 ],6,pic,'').
+struct_dt_elem_i([ 0,2,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],6,attributeid,'16').
+struct_dt_elem_i([ 0,2,0 ],6,'ExternalName','CityName').
+struct_dt_elem_i([ 0,2,0 ],6,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 0,2,0 ],7,name,'Categoryid').
+struct_dt_elem_i([ 0,2,0 ],7,camelname,'CategoryId').
+struct_dt_elem_i([ 0,2,0 ],7,basedon,85).
+struct_dt_elem_i([ 0,2,0 ],7,length,4).
+struct_dt_elem_i([ 0,2,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],7,sign,0).
+struct_dt_elem_i([ 0,2,0 ],7,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,2,0 ],7,pic,'ZZZ9').
+struct_dt_elem_i([ 0,2,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],7,attributeid,'11').
+struct_dt_elem_i([ 0,2,0 ],7,'ExternalName','CategoryId').
+struct_dt_elem_i([ 0,2,0 ],7,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 0,2,0 ],8,name,'Categoryname').
+struct_dt_elem_i([ 0,2,0 ],8,camelname,'CategoryName').
+struct_dt_elem_i([ 0,2,0 ],8,basedon,86).
+struct_dt_elem_i([ 0,2,0 ],8,length,50).
+struct_dt_elem_i([ 0,2,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],8,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 0,2,0 ],8,pic,'').
+struct_dt_elem_i([ 0,2,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],8,attributeid,'12').
+struct_dt_elem_i([ 0,2,0 ],8,'ExternalName','CategoryName').
+struct_dt_elem_i([ 0,2,0 ],8,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 0,2,0 ],9,name,'Attractionphoto').
+struct_dt_elem_i([ 0,2,0 ],9,camelname,'AttractionPhoto').
+struct_dt_elem_i([ 0,2,0 ],9,length,4).
+struct_dt_elem_i([ 0,2,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],9,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 0,2,0 ],9,pic,'').
+struct_dt_elem_i([ 0,2,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],9,attributeid,'13').
+struct_dt_elem_i([ 0,2,0 ],9,'ExternalName','AttractionPhoto').
+struct_dt_elem_i([ 0,2,0 ],9,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 0,2,0 ],10,name,'Attractionphoto_gxi').
+struct_dt_elem_i([ 0,2,0 ],10,camelname,'AttractionPhoto_GXI').
+struct_dt_elem_i([ 0,2,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],10,isadd,'True').
+struct_dt_elem_i([ 0,2,0 ],10,length,2048).
+struct_dt_elem_i([ 0,2,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],10,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 0,2,0 ],11,name,'Attractionaddress').
+struct_dt_elem_i([ 0,2,0 ],11,camelname,'AttractionAddress').
+struct_dt_elem_i([ 0,2,0 ],11,basedon,42).
+struct_dt_elem_i([ 0,2,0 ],11,length,1024).
+struct_dt_elem_i([ 0,2,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],11,type,[ 13,1024,0 ]).
+struct_dt_elem_i([ 0,2,0 ],11,pic,'').
+struct_dt_elem_i([ 0,2,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],11,attributeid,'18').
+struct_dt_elem_i([ 0,2,0 ],11,'ExternalName','AttractionAddress').
+struct_dt_elem_i([ 0,2,0 ],11,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 0,2,0 ],11,pic,'ZZZ9').
+struct_dt_elem_i([ 0,2,0 ],10,attributeid,'40000').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\airlane.dll
+C:\KB\Traveling\CSharpModel\build\airlane\obj\Release\airlane.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\airlane\obj\Release\airlane.dll

@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\aattractionbynameandcountry.dll
+C:\KB\Traveling\CSharpModel\build\aattractionbynameandcountry\obj\Release\aattractionbynameandcountry.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\aattractionbynameandcountry\obj\Release\aattractionbynameandcountry.dll

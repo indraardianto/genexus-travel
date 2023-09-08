@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\supplier.dll
+C:\KB\Traveling\CSharpModel\build\supplier\obj\Release\supplier.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\supplier\obj\Release\supplier.dll

@@ -1,0 +1,96 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_8-158023</SpecVersion>
+<Object>
+<ObjClsGuid>2a9e9aba-d2de-4801-ae7f-5e3819222daf</ObjClsGuid>
+<ObjCls>33</ObjCls>
+<ObjId>1</ObjId>
+<ObjName>RankingCountriesWithAttracitonsQty</ObjName>
+<ObjDesc>Ranking Countries With Attracitons Qty</ObjDesc>
+<ObjPgmName>RankingCountriesWithAttracitonsQty</ObjPgmName>
+<ObjClsName>DataProvider</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>out</IO>
+<Token>SDTCountries</Token></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>4</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>3</TableId>
+<TableName>Country</TableName>
+<Description>Country</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>CountryId</AttriName>
+<Description>Country Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ICOUNTRY</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>CountryName</AttriName>
+<Description>Country Name</Description></Attribute>
+<Sp></Sp>
+<Token>&lt;&gt;</Token>
+<Sp></Sp>
+<Token>&quot;Brazil&quot;</Token></Condition></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>3</TableId>
+<TableName>Country</TableName>
+<Description>Country</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>CountryId</AttriName>
+<Description>Country Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>3</TableId>
+<TableName>count( AttractionName )  navigation</TableName>
+<Description>Country</Description>
+<RecordsToRead>one</RecordsToRead>
+<JoinType>Outer</JoinType>
+<Tables>
+<Table>
+<TableId>2</TableId>
+<TableName>Attraction</TableName>
+<Description>Attraction</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>CountryId</AttriName>
+<Description>Country Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

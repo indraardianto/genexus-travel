@@ -1,0 +1,370 @@
+spec_i([ proc,31,'New Trip','NewTrip',78,eng,'17_0_8-158023' ]).
+ 
+struct_i(3,1,[],[]).
+struct_i(2,1,[],[]).
+ 
+level_i(3,[ 14,[ [ 14,many ] ],[],[],[ [ [ 14 ],[ 7,48 ] ] ],[ [ [ 14 ],[] ] ],[ 48,7 ],'ITRIPATTRACTION',[],[] ]).
+level_i(2,[ 13,[ [ 13,many ] ],[],[],[ [ [ 13 ],[ 50,49,48 ] ] ],[ [ [ 13 ],[] ] ],[ 48 ],'ITRIP',[],[] ]).
+ 
+tw_i(3,[]).
+tw_i(2,[]).
+ 
+lwi_i(3,[ [] ]).
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(1,[ [ [ 2000,se(40000,[ [ 2000,40000 ] ],[ t('coalesce(',1),t(40000,2),t(',',7),t('0',3),t(')',4) ]) ] ] ]).
+ta_i(3,[ [ [ 14,7 ],[ 14,48 ] ] ]).
+ta_i(2,[ [ [ 13,50 ],[ 13,49 ],[ 13,48 ] ] ]).
+ 
+las_i(3,[ [ 7,48 ] ]).
+las_i(2,[ [ 50,49,48 ] ]).
+ 
+lac_i(3,[ [] ]).
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','Timeout=120')).
+rule_i(0,datastore(1,'USER_PASSWORD','uZXÔ=ˆoÒEÌ''[Z}tvÜCÚ¿ÌT')).
+rule_i(0,datastore(1,'USER_ID',uZXAxoI7SbyvxC12)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','trialapps3.genexus.com')).
+rule_i(0,datastore(1,'CS_DBNAME','Idd34a97045eb5096d2a7b475d46cdbbd3')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','NewTrip')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'Carmine'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(120,'Root Module'))).
+rule_i(0,prop('ObjDesc','New Trip')).
+rule_i(0,prop('ObjName','NewTrip')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Attractionid','Trips' ],[])).
+rule_i(0,parmio([ [ 'Attractionid',in ],[ 'Trips',out ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,13,[],[ [],'ITRIP',[] ]).
+a_i(3,3,t,14,[],[ [],'ITRIPATTRACTION',[] ]).
+a_i(4,1,ra,2000,[],[ [],'ITRIPATTRACTION',[],5 ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,50).
+v_i(t,o,2,49).
+v_i(t,o,2,48).
+v_i(t,i,3,[]).
+v_i(t,o,3,7).
+v_i(t,o,3,48).
+v_i(ra,i,4,[]).
+v_i(ra,o,4,40000).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',13 ]).
+attri_i(40000,[ 'GXC1',int,9,0,'',0,'',[],0 ]).
+attri_i(48,[ 'TripId',int,4,0,'ZZZ9',0,'Trip Id','',0 ]).
+attri_i(7,[ 'AttractionId',int,4,0,'ZZZ9',0,'Attraction Id','',0 ]).
+attri_i(49,[ 'TripDate',date,8,0,'99/99/99',0,'Trip Date','',0 ]).
+attri_i(50,[ 'TripDescription',char,20,0,'',0,'Trip Description','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',12 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',11 ]).
+attri_i('Trips',[ trips,int,4,0,'ZZZ9',0,trips,'',10 ]).
+attri_i('Tripid',[ 'TripId',int,4,0,'ZZZ9',0,'Trip Id','',9 ]).
+attri_i('Attractionid',[ 'AttractionId',int,4,0,'ZZZ9',0,'Attraction Id','',8 ]).
+ 
+table_i(13,[ 'Trip',[ 48,49,50 ],'Trip','Trip' ]).
+table_i(14,[ 'TripAttraction',[ 48,7 ],'Attraction','TripAttraction' ]).
+table_i(2000,[ 'TripAttraction',[ 40000,48,7 ],'Attraction','TripAttraction' ]).
+ 
+index_i(13,[ 'ITRIP',u,[ 48 ],'ITrip' ]).
+index_i(14,[ 'ITRIPATTRACTION',u,[ 48,7 ],'ITripAttraction' ]).
+index_i(2000,[ 'ITRIPATTRACTION',u,[ 48,7 ],'ITripAttraction' ]).
+ 
+lv_i(2,2000,14).
+ 
+ 
+ 
+ 
+nav_view_i(2000,[ 40000 ],[],[ 'Attractionid' ],[ [ 2000,[] ] ],[ [ [ 13,[ 'count(',49 ] ] ],n,[ [ 14,many ],[ 13,one ] ],[ [ 13,[ [ 14,48,48 ] ] ] ],[ c([ t(7,2),t(=,10),t('Attractionid',23) ],[ 7 ]) ],[ none ],[],[ 'Attractionid' ],[] ]).
+ 
+ 
+agg_def_i(40000,[ t('0',3) ]).
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,2,40001,13,'AttractionPhoto_GXI',[ svchar,2048,0,0 ]).
+ 
+upd_i(2,13,i,[ [ 49,50 ],[],'ITRIP',[ [ [],48,48 ] ] ]).
+upd_i(3,14,i,[ [ 48,7 ],[],'ITRIPATTRACTION',[ [ [],48,48 ],[ [],7,7 ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(85,[ 'Id' ]).
+ 
+ 
+break_i(2,ins,1,[],[ [ 50,49 ],[],[] ]).
+break_i(3,ins,1,[],[ [ 7,48 ],[],[] ]).
+break_i(1,rpt,0,[],[ [ 48 ],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,ins,2,1,1).
+b_group_i(2,1,lit,0,2,2).
+b_group_i(1,3,lit,0,5,4).
+b_group_i(1,4,ins,3,6,6).
+b_group_i(3,1,lit,0,7,7).
+b_group_i(1,5,lit,0,10,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,2,1,cmd,2,[ t('',117,1,0) ]).
+b_line_i(2,2,1,cmd,2,[ t('',107,2,0),t(49,2,2,0),t(=,10,2,0),t('today(',1,2,0),t(')',4,2,0) ]).
+b_line_i(3,2,1,cmd,2,[ t('',107,3,0),t(50,2,2,0),t(=,10,2,0),t('"Create automatically from WWAttractionsFromScratch"',3,2,0) ]).
+b_line_i(4,2,1,cmd,2,[ t('',127,4,0) ]).
+b_line_i(5,1,3,cmd,4,[ t('',107,5,0),t('Tripid',23,4,0),t(=,10,4,0),t(48,2,4,0) ]).
+b_line_i(6,3,1,cmd,7,[ t('',117,6,0) ]).
+b_line_i(7,3,1,cmd,7,[ t('',107,7,0),t(48,2,7,0),t(=,10,7,0),t('Tripid',23,7,0) ]).
+b_line_i(8,3,1,cmd,7,[ t('',107,8,0),t(7,2,7,0),t(=,10,7,0),t('Attractionid',23,7,0) ]).
+b_line_i(9,3,1,cmd,7,[ t('',127,9,0) ]).
+b_line_i(10,1,5,cmd,8,[]).
+b_line_i(11,1,5,cmd,8,[ t('',107,11,0),t('Trips',23,8,0),t(=,10,8,0),t(40000,2,8,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg([],spc0060,[ 'The program may be called by another program and the Commit on Exit property is set to YES' ])).
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,50,'ExternalName','TripDescription',d).
+att_prop_i(2,50,'ExternalNamespace','Traveling',d).
+att_prop_i(2,50,'EmptyAsNull','Yes',d).
+att_prop_i(2,50,idBasedOn,'',d).
+att_prop_i(2,50,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,50,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,50,'AttRegEx','',d).
+att_prop_i(2,50,'AttValidationFailedMsg','',d).
+att_prop_i(2,50,'DownloadOffline','0',d).
+att_prop_i(2,50,'VarServiceExtName','',d).
+att_prop_i(2,50,'FullName','TripDescription',v).
+att_prop_i(2,49,'ExternalName','TripDate',d).
+att_prop_i(2,49,'ExternalNamespace','Traveling',d).
+att_prop_i(2,49,'EmptyAsNull','Yes',d).
+att_prop_i(2,49,idBasedOn,'',d).
+att_prop_i(2,49,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,49,'AttRegEx','',d).
+att_prop_i(2,49,'AttValidationFailedMsg','',d).
+att_prop_i(2,49,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,49,'DownloadOffline','0',d).
+att_prop_i(2,49,'VarServiceExtName','',d).
+att_prop_i(2,49,'FullName','TripDate',v).
+att_prop_i(2,7,'ExternalName','AttractionId',d).
+att_prop_i(2,7,'ExternalNamespace','Traveling',d).
+att_prop_i(2,7,'EmptyAsNull','Yes',d).
+att_prop_i(2,7,idBasedOn,85,v).
+att_prop_i(2,7,'AUTONUMBER','-1',v).
+att_prop_i(2,7,'AUTONUMBER_START','1',d).
+att_prop_i(2,7,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,7,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,7,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,7,'AttRegEx','',d).
+att_prop_i(2,7,'AttValidationFailedMsg','',d).
+att_prop_i(2,7,'DownloadOffline','0',d).
+att_prop_i(2,7,'VarServiceExtName','',d).
+att_prop_i(2,7,'FullName','AttractionId',v).
+att_prop_i(2,48,'ExternalName','TripId',d).
+att_prop_i(2,48,'ExternalNamespace','Traveling',d).
+att_prop_i(2,48,'EmptyAsNull','Yes',d).
+att_prop_i(2,48,idBasedOn,85,v).
+att_prop_i(2,48,'AUTONUMBER','-1',v).
+att_prop_i(2,48,'AUTONUMBER_START','1',d).
+att_prop_i(2,48,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,48,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,48,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,48,'AttRegEx','',d).
+att_prop_i(2,48,'AttValidationFailedMsg','',d).
+att_prop_i(2,48,'DownloadOffline','0',d).
+att_prop_i(2,48,'VarServiceExtName','',d).
+att_prop_i(2,48,'FullName','TripId',v).
+att_prop_i(2,40000,'ExternalName','TripDate',d).
+att_prop_i(2,40000,'ExternalNamespace','Traveling',d).
+att_prop_i(2,40000,'EmptyAsNull','Yes',d).
+att_prop_i(2,40000,idBasedOn,'',d).
+att_prop_i(2,40000,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40000,'AttRegEx','',d).
+att_prop_i(2,40000,'AttValidationFailedMsg','',d).
+att_prop_i(2,40000,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,40000,'DownloadOffline','0',d).
+att_prop_i(2,40000,'VarServiceExtName','',d).
+att_prop_i(2,40000,'FullName','TripDate',v).
+ 
+tbl_prop_i(2,2000,'AllDirSuper',[ [ 13,[ 48 ] ] ],v).
+tbl_prop_i(2,14,'AllDirSuper',[ [ 13,[ 48 ] ] ],v).
+tbl_prop_i(2,13,'DirSubor',[ [ 14,[ 48 ] ] ],v).
+tbl_prop_i(2,2000,'DirSuper',[ [ 13,[ 48 ] ] ],v).
+tbl_prop_i(2,14,'DirSuper',[ [ 13,[ 48 ] ] ],v).
+ 
+tbl_att_prop_i(2,13,48,'AllowNulls',n).
+tbl_att_prop_i(2,13,48,'AUTONUMBER',y).
+tbl_att_prop_i(2,13,49,'AllowNulls',n).
+tbl_att_prop_i(2,13,50,'AllowNulls',n).
+tbl_att_prop_i(2,14,48,'AllowNulls',n).
+tbl_att_prop_i(2,14,7,'AllowNulls',n).
+tbl_att_prop_i(2,2000,48,'AllowNulls',n).
+tbl_att_prop_i(2,2000,7,'AllowNulls',n).
+ 
+var_prop_i(2,'Attractionid',idBasedOn,'',v).
+var_prop_i(2,'Tripid',idBasedOn,'',v).
+ 
+ 
+ 
+a_alias_i([ 'count(',49 ],'GXC1').
+a_alias_i(se(40000,[ [ 2000,40000 ] ],[ t('coalesce(',1),t(40000,2),t(',',7),t('0',3),t(')',4) ]),'GXC1').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,31,'NEWTRIP','INTERNAL','Secure').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

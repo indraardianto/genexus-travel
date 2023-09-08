@@ -1,0 +1,162 @@
+ 
+ 
+ 
+pgm_main_i(proc,25,'COUNTRYRANKING',[ 15,'ACOUNTRYRANKING','Country Ranking','','','','HTTP' ]).
+pgm_main_i(proc,26,'COUNTRYRANKING',[ 15,'ACOUNTRYRANKING','Country Ranking','','','','HTTP' ]).
+pgm_main_i(proc,14,'ATTRACTIONLIST',[ 15,'AATTRACTIONLIST','Attraction List','','','','HTTP' ]).
+pgm_main_i(proc,15,'CATEGORYANDTHEIRATTRACTIONLIST',[ 15,'ACATEGORYANDTHEIRATTRACTIONLIST','Category And Their Attraction List','','','','HTTP' ]).
+pgm_main_i(proc,16,'ATTRACTIONPERCATEGORY',[ 15,'AATTRACTIONPERCATEGORY','Attraction Per Category','','','','HTTP' ]).
+pgm_main_i(proc,18,'NUMBEROFATTRACTIONBYCOUNTRY',[ 15,'ANUMBEROFATTRACTIONBYCOUNTRY','Number Of Attraction By Country','','','','HTTP' ]).
+pgm_main_i(proc,17,'CATEGORIESINATTRACTIONS',[ 15,'ACATEGORIESINATTRACTIONS','Categories In Attractions','','','','HTTP' ]).
+pgm_main_i(proc,19,'NUMBERWITHMORETHAN2ATTRACTIONS',[ 15,'ANUMBERWITHMORETHAN2ATTRACTIONS','Number With More Than2 Attractions','','','','HTTP' ]).
+pgm_main_i(proc,21,'ATTRACTIONBYNAME',[ 15,'AATTRACTIONBYNAME','Attraction By Name','','','','HTTP' ]).
+pgm_main_i(proc,22,'ATTRACTIONBYNAMEANDCOUNTRY',[ 15,'AATTRACTIONBYNAMEANDCOUNTRY','Attraction By Name And Country','','','','HTTP' ]).
+pgm_main_i(proc,23,'ATTRACTIONREPORT',[ 15,'AATTRACTIONREPORT','Attraction Report','','','','HTTP' ]).
+pgm_main_i(proc,27,'RANKINGCOUNTRY',[ 15,'ARANKINGCOUNTRY','Ranking Country','','','','HTTP' ]).
+pgm_main_i(proc,28,'COUNTRIESCOLLECTION',[ 15,'ACOUNTRIESCOLLECTION','Countries Collection','','','','HTTP' ]).
+pgm_main_i(mnproc,7,'ATTRACTION_DATAPROVIDER',[ 15,'AATTRACTION_DATAPROVIDER','Attraction_Data Provider','','','','INTERNAL' ]).
+pgm_main_i(mnproc,6,'CATEGORY_DATAPROVIDER',[ 15,'ACATEGORY_DATAPROVIDER','Category_Data Provider','','','','INTERNAL' ]).
+pgm_main_i(proc,30,'INSERTCATEGORYUPDATEATTRACTIONS',[ 15,'AINSERTCATEGORYUPDATEATTRACTIONS','Insert Category Update Attractions','','','','HTTP' ]).
+pgm_main_i(web,12,'HOME',[ 15,'HOME','Home','','','','' ]).
+pgm_main_i(proc,32,'ATTRACTIONSREPORT',[ 15,'AATTRACTIONSREPORT','Attractions Report','','','','HTTP' ]).
+ 
+pgm_prop_i(proc,26,'ACOUNTRYRANKING','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,26,'COUNTRYRANKING','CALL_PROTOCOL','HTTP').
+pgm_prop_i(web,18,'COUNTRYCITYWC','WEB_COMP','Yes').
+pgm_prop_i(web,18,'COUNTRYCITYWC','URLAccess','No').
+pgm_prop_i(web,34,'ATTRACTIONATTRACTION1WC','WEB_COMP','Yes').
+pgm_prop_i(web,34,'ATTRACTIONATTRACTION1WC','URLAccess','No').
+pgm_prop_i(web,27,'ATTRACTIONATTRACTIONWC','WEB_COMP','Yes').
+pgm_prop_i(web,27,'ATTRACTIONATTRACTIONWC','URLAccess','No').
+pgm_prop_i(web,14,'TABBEDVIEW','WEB_COMP','Yes').
+pgm_prop_i(web,14,'TABBEDVIEW','URLAccess','No').
+pgm_prop_i(web,2,'RECENTLINKS','WEB_COMP','Yes').
+pgm_prop_i(web,2,'RECENTLINKS','URLAccess','No').
+pgm_prop_i(web,5,'RWDRECENTLINKS','WEB_COMP','Yes').
+pgm_prop_i(web,5,'RWDRECENTLINKS','URLAccess','No').
+pgm_prop_i(proc,14,'AATTRACTIONLIST','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,14,'ATTRACTIONLIST','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,15,'ACATEGORYANDTHEIRATTRACTIONLIST','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,15,'CATEGORYANDTHEIRATTRACTIONLIST','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,16,'AATTRACTIONPERCATEGORY','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,16,'ATTRACTIONPERCATEGORY','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,18,'ANUMBEROFATTRACTIONBYCOUNTRY','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,18,'NUMBEROFATTRACTIONBYCOUNTRY','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,17,'ACATEGORIESINATTRACTIONS','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,17,'CATEGORIESINATTRACTIONS','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,19,'ANUMBERWITHMORETHAN2ATTRACTIONS','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,19,'NUMBERWITHMORETHAN2ATTRACTIONS','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,21,'AATTRACTIONBYNAME','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,21,'ATTRACTIONBYNAME','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,22,'AATTRACTIONBYNAMEANDCOUNTRY','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,22,'ATTRACTIONBYNAMEANDCOUNTRY','CALL_PROTOCOL','HTTP').
+pgm_prop_i(mnproc,1,'RANKINGCOUNTRIESWITHATTRACITONSQTY','OutputSDT',o(26,'SDTCountries')).
+pgm_prop_i(proc,23,'AATTRACTIONREPORT','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,23,'ATTRACTIONREPORT','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,27,'ARANKINGCOUNTRY','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,27,'RANKINGCOUNTRY','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,28,'ACOUNTRIESCOLLECTION','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,28,'COUNTRIESCOLLECTION','CALL_PROTOCOL','HTTP').
+pgm_prop_i(web,21,'ATTRACTIONGENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,21,'ATTRACTIONGENERAL','URLAccess','No').
+pgm_prop_i(trn,2,'ATTRACTION',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(mnproc,5,'ATTRACTION_DP','OutputSDT',o(0,'Attraction')).
+pgm_prop_i(mnproc,7,'AATTRACTION_DATAPROVIDER','OutputSDT',o(0,'Attraction')).
+pgm_prop_i(mnproc,7,'ATTRACTION_DATAPROVIDER','OutputSDT',o(0,'Attraction')).
+pgm_prop_i(web,17,'COUNTRYGENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,17,'COUNTRYGENERAL','URLAccess','No').
+pgm_prop_i(mnproc,4,'CATEGORY_DP','OutputSDT',o(0,'Category')).
+pgm_prop_i(mnproc,6,'ACATEGORY_DATAPROVIDER','OutputSDT',o(0,'Category')).
+pgm_prop_i(mnproc,6,'CATEGORY_DATAPROVIDER','OutputSDT',o(0,'Category')).
+pgm_prop_i(proc,30,'AINSERTCATEGORYUPDATEATTRACTIONS','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,30,'INSERTCATEGORYUPDATEATTRACTIONS','CALL_PROTOCOL','HTTP').
+pgm_prop_i(trn,4,'CATEGORY',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(web,1,'APPMASTERPAGE','WEB_COMP','Master').
+pgm_prop_i(web,3,'PROMPTMASTERPAGE','WEB_COMP','Master').
+pgm_prop_i(web,4,'RWDMASTERPAGE','WEB_COMP','Master').
+pgm_prop_i(web,6,'RWDPROMPTMASTERPAGE','WEB_COMP','Master').
+pgm_prop_i(proc,32,'AATTRACTIONSREPORT','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,32,'ATTRACTIONSREPORT','CALL_PROTOCOL','HTTP').
+ 
+model_wrkinfo_i([ '.Net Environment','CSharpModel' ]).
+ 
+model_info_i([ 'Design','CSharpModel',1 ]).
+ 
+datastore_i(1,'DS_LAST_CHANGE','').
+datastore_i(1,'LOCK_RETRY','10').
+datastore_i(1,'WAIT_RECORD','0').
+datastore_i(1,'ISOLATION_LEVEL','CR').
+datastore_i(1,'SQLSERVER_VERSION','10').
+datastore_i(1,'COMMENT_ON','No').
+datastore_i(1,'DFT_TMP_TBLSPACE','').
+datastore_i(1,'DFT_IDX_TBLSPACE','').
+datastore_i(1,'DFT_TBL_TBLSPACE','').
+datastore_i(1,'DCL_REF_INT_DB','Yes').
+datastore_i(1,'PRIMARY_KEY_TYPE','PK').
+datastore_i(1,'CS_SCHEMA','').
+datastore_i(1,'SORT_ATTRIBUTES','Yes').
+datastore_i(1,'JRN400','QSQJRN').
+datastore_i(1,'CREATE_SAVF','Yes').
+datastore_i(1,'PGMLIB','').
+datastore_i(1,'DTALIB','').
+datastore_i(1,'RecycleRWMin','30').
+datastore_i(1,'RecycleRWType','1').
+datastore_i(1,'RecycleRW','-1').
+datastore_i(1,'POOL_STARTUP','No').
+datastore_i(1,'POOLSIZE_RW','10').
+datastore_i(1,'UnlimitedRWPool','-1').
+datastore_i(1,'PoolRWEnabled','-1').
+datastore_i(1,'CS_RPCPGML','').
+datastore_i(1,'JDBC_DATASOURCE','').
+datastore_i(1,'USE_JDBC_DATASOURCE','0').
+datastore_i(1,'DS_DBMS_ADDINFO','Timeout=120').
+datastore_i(1,'USER_PASSWORD','uZXÔ=ˆoÒEÌ''[Z}tvÜCÚ¿ÌT').
+datastore_i(1,'USER_ID',uZXAxoI7SbyvxC12).
+datastore_i(1,'TRUSTED_CONNECTION','No').
+datastore_i(1,'CS_CONNECT','First').
+datastore_i(1,'DBMS_PORT','').
+datastore_i(1,'CS_SERVER','trialapps3.genexus.com').
+datastore_i(1,'CS_DBNAME','Idd34a97045eb5096d2a7b475d46cdbbd3').
+datastore_i(1,'CS_FLEDSNAME','').
+datastore_i(1,'CS_DRVNAME','sql server').
+datastore_i(1,'CS_DSNAME','').
+datastore_i(1,'DB_URL','').
+datastore_i(1,'JDBC_CUSTOM_URL','0').
+datastore_i(1,'JDBC_CUSTOM_DRIVER','').
+datastore_i(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver').
+datastore_i(1,'CONNECT_METHOD','OPSYS').
+datastore_i(1,'ACCESS_TECHNO','ADONET').
+datastore_i(1,'MAIN_DS','-1').
+datastore_i(1,'REORG_GEN','8').
+datastore_i(1,'HelpKeyword','20').
+datastore_i(1,'DBMS',12).
+datastore_i(1,'NAME','Default').
+ 
+subview_i(2,515,7).
+subview_i(2,516,3).
+subview_i(2,517,5).
+subview_i(2,518,7).
+subview_i(2,519,3).
+subview_i(2,520,5).
+ 
+subtype_group_i(2,1,[ 'FlightDepartureAirport',[ [ 22,20 ],[ 23,21 ],[ 26,9 ],[ 28,15 ],[ 27,10 ],[ 29,16 ] ] ]).
+subtype_group_i(2,2,[ 'FlightArrivalAirport',[ [ 24,20 ],[ 25,21 ],[ 30,9 ],[ 32,15 ],[ 31,10 ],[ 33,16 ] ] ]).
+ 
+culture_id_i(eng).
+ 
+lng_i(1,[ 'English','English',eng ]).
+ 
+lng_prop_i(1,'IsRightToLeft','0',d).
+lng_prop_i(1,'ISOLangCode','EN',v).
+lng_prop_i(1,'ISOCountryCode','US',v).
+lng_prop_i(1,'Codepage','1252',v).
+lng_prop_i(1,'LanguageLocalization','',d).
+lng_prop_i(1,'LangDateFormat','ENG',v).
+lng_prop_i(1,'LangTimeFormat','12',v).
+lng_prop_i(1,'LangDecimalPoint','.',v).
+lng_prop_i(1,'FullyQualifiedName','English',d).
+ 
+ver_stamp('20230614.024424').
+ 
+ver_stamp(date(2023,6,14),time(9,44,50,10)).
+ 

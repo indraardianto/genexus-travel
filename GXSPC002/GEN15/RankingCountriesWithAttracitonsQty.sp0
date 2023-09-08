@@ -1,0 +1,396 @@
+spec_i([ mnproc,1,'Ranking Countries With Attracitons Qty','RankingCountriesWithAttracitonsQty',0,eng,'17_0_8-158023' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 3,[ [ 3,many ],[ 2000,one ] ],[],[],[ [ [ 3,2000 ],[ 10,9,40000 ] ] ],[ [ [ 3,2000 ],[] ] ],[ 9 ],'ICOUNTRY',[],[] ]).
+ 
+tw_i(2,[ [ 2000,[ [ 3,oe([ t(9,2) ]),9 ] ] ] ]).
+ 
+lwi_i(2,[ [ c([ t(10,2),t(<>,10),t('"Brazil"',3) ],[ 10 ]) ] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [ [ 3,10 ],[ 3,9 ],[ 2000,se(40000,[ [ 2000,40000 ] ],[ t('coalesce(',1),t(40000,2),t(',',7),t('0',3),t(')',4) ]) ] ] ]).
+ 
+las_i(2,[ [ 10,9,40000 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','Timeout=120')).
+rule_i(0,datastore(1,'USER_PASSWORD','uZXÔ=ˆoÒEÌ''[Z}tvÜCÚ¿ÌT')).
+rule_i(0,datastore(1,'USER_ID',uZXAxoI7SbyvxC12)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','trialapps3.genexus.com')).
+rule_i(0,datastore(1,'CS_DBNAME','Idd34a97045eb5096d2a7b475d46cdbbd3')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','RankingCountriesWithAttracitonsQty')).
+rule_i(0,prop('Folder',o(120,'Root Module'))).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('OutputCollectionName','RankingCountriesWithAttracitonsQty')).
+rule_i(0,prop('OutputCollection','0')).
+rule_i(0,prop('OutputSDT',o(26,'SDTCountries'))).
+rule_i(0,prop(idINFER_SDT,idINFER_STRUCTURE_NO)).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('Theme',o(25,'Carmine'))).
+rule_i(0,prop(idISWEBSERVICE,'0')).
+rule_i(0,prop('ObjDesc','Ranking Countries With Attracitons Qty')).
+rule_i(0,prop('ObjName','RankingCountriesWithAttracitonsQty')).
+rule_i(0,rule([ a(22,[ 'Rfr','"Refresh"','5' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Gxm2rootcol' ],[])).
+rule_i(0,parmio([ [ 'Gxm2rootcol',out ] ])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,3,[],[ [],'ICOUNTRY',[] ]).
+a_i(3,2,r,2000,[],[ [ [ 3,oe([ t(9,2) ]),9 ] ],'ICOUNTRY',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,10).
+v_i(t,o,2,9).
+v_i(r,i,3,9).
+v_i(r,o,3,40000).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(7,[ 'AttractionId',int,4,0,'ZZZ9',0,'Attraction Id','',0 ]).
+attri_i(9,[ 'CountryId',int,4,0,'ZZZ9',0,'Country Id','',0 ]).
+attri_i(10,[ 'CountryName',char,50,0,'',0,'Country Name','',0 ]).
+attri_i(40000,[ 'GXC1',int,9,0,'',0,'',[],0 ]).
+attri_i(8,[ 'AttractionName',char,50,0,'',0,'Attraction Name','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',8 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',7 ]).
+attri_i('Gxm1sdtcountries',[ 'Gxm1sdtcountries',o('SDTCountries.SDTCountriesItem'),0,0,'',0,'Gxm1sdtcountries','',6 ]).
+attri_i('Gxm2rootcol',[ 'Gxm2rootcol',o(objectcollection('SDTCountries.SDTCountriesItem')),0,0,'',0,'Gxm2rootcol','',5 ]).
+ 
+table_i(2,[ 'Attraction',[ 7,8,9 ],'Attraction','Attraction' ]).
+table_i(2000,[ 'Country',[ 40000,9 ],'Country','Country' ]).
+table_i(3,[ 'Country',[ 9,10 ],'Country','Country' ]).
+ 
+index_i(2,[ 'IATTRACTION',u,[ 7 ],'IAttraction' ]).
+index_i(3,[ 'ICOUNTRY',u,[ 9 ],'ICountry' ]).
+index_i(2000,[ 'ICOUNTRY',u,[ 9 ],'ICountry' ]).
+ 
+lv_i(2,2000,3).
+ 
+ 
+ 
+ 
+nav_view_i(2000,[ 40000 ],[ 9 ],[ 9 ],[ [ 2000,[ [ 3,oe([ t(9,2) ]),9 ] ] ] ],[ [ [ 2,[ 'count(',8 ] ],[ 2,9 ] ],n,[ [ 2,many ] ],[],[],[ none ],[],[ 9 ],[] ]).
+ 
+ 
+agg_def_i(40000,[ t('0',3) ]).
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,2,40001,13,'AttractionPhoto_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(86,[ 'Name' ]).
+dom_info_i(85,[ 'Id' ]).
+dom_info_i(42,[ 'GeneXus\Address' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [ 10,9 ],[ 10 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,4).
+b_group_i(1,2,nvg,2,4,4).
+b_group_i(2,1,lit,0,5,6).
+b_group_i(1,3,lit,0,10,0).
+ 
+b_line_i(4,2,1,cmd,5,[ t('',121,4,0),t(table,3,4,19),t(3,3,4,19) ]).
+b_line_i([ 4,2 ],2,1,cmd,4,[ t('',107,4,0),t('Gxm1sdtcountries',23,4,0),t(=,10,4,0),t([ 'SDTCountries.SDTCountriesItem',[ t('(',0,4,0),t(')',4,4,0) ],n ],46,4,0) ]).
+b_line_i([ 4,3 ],2,1,cmd,4,[ t('',107,4,0),t([ t('Gxm2rootcol',23,4,0),t('add(',1,4,0) ],31,4,0),t('Gxm1sdtcountries',23,4,0),t(')',4,4,0) ]).
+b_line_i(6,2,1,cmd,6,[ t('',107,6,0),t([ t('Gxm1sdtcountries',23,6,0),t('Id',3,6,0) ],29,6,0),t(=,10,6,0),t(9,2,6,0) ]).
+b_line_i(7,2,1,cmd,6,[ t('',107,7,0),t([ t('Gxm1sdtcountries',23,6,0),t('Name',3,6,0) ],29,6,0),t(=,10,6,0),t(10,2,6,0) ]).
+b_line_i(8,2,1,cmd,6,[ t('',107,8,0),t([ t('Gxm1sdtcountries',23,6,0),t('Attractionsquantity',3,6,0) ],29,6,0),t(=,10,6,0),t(40000,2,6,0) ]).
+b_line_i(9,2,1,cmd,6,[ t('',128,9,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+calling_main_i(1,27).
+ 
+att_prop_i(2,8,'ExternalName','AttractionName',d).
+att_prop_i(2,8,'ExternalNamespace','Traveling',d).
+att_prop_i(2,8,'EmptyAsNull','Yes',d).
+att_prop_i(2,8,idBasedOn,86,v).
+att_prop_i(2,8,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,8,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,8,'AttRegEx','',d).
+att_prop_i(2,8,'AttValidationFailedMsg','',d).
+att_prop_i(2,8,'DownloadOffline','0',d).
+att_prop_i(2,8,'VarServiceExtName','',d).
+att_prop_i(2,8,'FullName','AttractionName',v).
+att_prop_i(2,10,'ExternalName','CountryName',d).
+att_prop_i(2,10,'ExternalNamespace','Traveling',d).
+att_prop_i(2,10,'EmptyAsNull','Yes',d).
+att_prop_i(2,10,idBasedOn,86,v).
+att_prop_i(2,10,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,10,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,10,'AttRegEx','',d).
+att_prop_i(2,10,'AttValidationFailedMsg','',d).
+att_prop_i(2,10,'DownloadOffline','0',d).
+att_prop_i(2,10,'VarServiceExtName','',d).
+att_prop_i(2,10,'FullName','CountryName',v).
+att_prop_i(2,9,'ExternalName','CountryId',d).
+att_prop_i(2,9,'ExternalNamespace','Traveling',d).
+att_prop_i(2,9,'EmptyAsNull','Yes',d).
+att_prop_i(2,9,idBasedOn,85,v).
+att_prop_i(2,9,'AUTONUMBER','-1',v).
+att_prop_i(2,9,'AUTONUMBER_START','1',d).
+att_prop_i(2,9,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,9,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,9,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,9,'AttRegEx','',d).
+att_prop_i(2,9,'AttValidationFailedMsg','',d).
+att_prop_i(2,9,'DownloadOffline','0',d).
+att_prop_i(2,9,'VarServiceExtName','',d).
+att_prop_i(2,9,'FullName','CountryId',v).
+att_prop_i(2,7,'ExternalName','AttractionId',d).
+att_prop_i(2,7,'ExternalNamespace','Traveling',d).
+att_prop_i(2,7,'EmptyAsNull','Yes',d).
+att_prop_i(2,7,idBasedOn,85,v).
+att_prop_i(2,7,'AUTONUMBER','-1',v).
+att_prop_i(2,7,'AUTONUMBER_START','1',d).
+att_prop_i(2,7,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,7,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,7,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,7,'AttRegEx','',d).
+att_prop_i(2,7,'AttValidationFailedMsg','',d).
+att_prop_i(2,7,'DownloadOffline','0',d).
+att_prop_i(2,7,'VarServiceExtName','',d).
+att_prop_i(2,7,'FullName','AttractionId',v).
+att_prop_i(2,40000,'ExternalName','AttractionName',d).
+att_prop_i(2,40000,'ExternalNamespace','Traveling',d).
+att_prop_i(2,40000,'EmptyAsNull','Yes',d).
+att_prop_i(2,40000,idBasedOn,86,v).
+att_prop_i(2,40000,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40000,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,40000,'AttRegEx','',d).
+att_prop_i(2,40000,'AttValidationFailedMsg','',d).
+att_prop_i(2,40000,'DownloadOffline','0',d).
+att_prop_i(2,40000,'VarServiceExtName','',d).
+att_prop_i(2,40000,'FullName','AttractionName',v).
+ 
+ 
+tbl_att_prop_i(2,2,7,'AllowNulls',n).
+tbl_att_prop_i(2,2,7,'AUTONUMBER',y).
+tbl_att_prop_i(2,2,8,'AllowNulls',n).
+tbl_att_prop_i(2,2,9,'AllowNulls',n).
+tbl_att_prop_i(2,3,9,'AllowNulls',n).
+tbl_att_prop_i(2,3,9,'AUTONUMBER',y).
+tbl_att_prop_i(2,3,10,'AllowNulls',n).
+tbl_att_prop_i(2,2000,9,'AllowNulls',n).
+tbl_att_prop_i(2,2000,9,'AUTONUMBER',y).
+ 
+ 
+ 
+ 
+a_alias_i([ 'count(',8 ],'GXC1').
+a_alias_i(se(40000,[ [ 2000,40000 ] ],[ t('coalesce(',1),t(40000,2),t(',',7),t('0',3),t(')',4) ]),'GXC1').
+ 
+ 
+struct_dt_i([ 26,58,0 ],name,'SDTCountries').
+struct_dt_i([ 26,58,0 ],namespace,'Traveling').
+struct_dt_i([ 26,58,0 ],'ObjName','SDTCountries').
+struct_dt_i([ 26,58,0 ],'ObjDesc','SDTCountries').
+struct_dt_i([ 26,58,0 ],'ExternalName','SDTCountries').
+struct_dt_i([ 26,58,0 ],'ExternalNamespace','Traveling').
+struct_dt_i([ 26,58,0 ],collection,'True').
+struct_dt_i([ 26,58,0 ],datatype,[ 26,58,86 ]).
+struct_dt_i([ 26,58,0 ],'CollectionItemName','SDTCountriesItem').
+struct_dt_i([ 26,58,0 ],'XmlName','').
+struct_dt_i([ 26,58,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,58,0 ],'XmlNamespace','').
+struct_dt_i([ 26,58,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,58,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,58,0 ],'JsonName','').
+struct_dt_i([ 26,58,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,58,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,58,86 ],name,'SDTCountriesItem').
+struct_dt_i([ 26,58,86 ],namespace,'Traveling.SDTCountries').
+struct_dt_i([ 26,58,0 ],fullname,'SDTCountries').
+struct_dt_i([ 26,58,86 ],fullname,'SDTCountries.SDTCountriesItem').
+struct_dt_i([ 26,58,0 ],camelname,'Sdtcountries').
+struct_dt_i([ 26,58,86 ],camelname,'Sdtcountriesitem').
+ 
+struct_dt_elem_i([ 26,58,86 ],1,name,'Id').
+struct_dt_elem_i([ 26,58,86 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,58,86 ],1,basedon,85).
+struct_dt_elem_i([ 26,58,86 ],1,length,4).
+struct_dt_elem_i([ 26,58,86 ],1,decimals,0).
+struct_dt_elem_i([ 26,58,86 ],1,sign,0).
+struct_dt_elem_i([ 26,58,86 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,58,86 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,58,86 ],1,collection,'False').
+struct_dt_elem_i([ 26,58,86 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,58,86 ],1,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 26,58,86 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,58,86 ],1,'XmlName','').
+struct_dt_elem_i([ 26,58,86 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,58,86 ],1,soaptype,'').
+struct_dt_elem_i([ 26,58,86 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,58,86 ],1,'JsonName','').
+struct_dt_elem_i([ 26,58,86 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,58,86 ],2,name,'Name').
+struct_dt_elem_i([ 26,58,86 ],2,camelname,'Name').
+struct_dt_elem_i([ 26,58,86 ],2,length,20).
+struct_dt_elem_i([ 26,58,86 ],2,decimals,0).
+struct_dt_elem_i([ 26,58,86 ],2,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,58,86 ],2,pic,'').
+struct_dt_elem_i([ 26,58,86 ],2,collection,'False').
+struct_dt_elem_i([ 26,58,86 ],2,'ExternalName','Name').
+struct_dt_elem_i([ 26,58,86 ],2,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 26,58,86 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,58,86 ],2,'XmlName','').
+struct_dt_elem_i([ 26,58,86 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,58,86 ],2,soaptype,'').
+struct_dt_elem_i([ 26,58,86 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,58,86 ],2,'JsonName','').
+struct_dt_elem_i([ 26,58,86 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,58,86 ],3,name,'Attractionsquantity').
+struct_dt_elem_i([ 26,58,86 ],3,camelname,'AttractionsQuantity').
+struct_dt_elem_i([ 26,58,86 ],3,length,4).
+struct_dt_elem_i([ 26,58,86 ],3,decimals,0).
+struct_dt_elem_i([ 26,58,86 ],3,sign,0).
+struct_dt_elem_i([ 26,58,86 ],3,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,58,86 ],3,pic,'ZZZ9').
+struct_dt_elem_i([ 26,58,86 ],3,collection,'False').
+struct_dt_elem_i([ 26,58,86 ],3,'ExternalName','AttractionsQuantity').
+struct_dt_elem_i([ 26,58,86 ],3,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 26,58,86 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,58,86 ],3,'XmlName','').
+struct_dt_elem_i([ 26,58,86 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,58,86 ],3,soaptype,'').
+struct_dt_elem_i([ 26,58,86 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,58,86 ],3,'JsonName','').
+struct_dt_elem_i([ 26,58,86 ],3,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(mnproc,1,'RANKINGCOUNTRIESWITHATTRACITONSQTY','INTERNAL','').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

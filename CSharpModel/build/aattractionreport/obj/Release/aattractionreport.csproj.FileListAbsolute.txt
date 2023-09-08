@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\aattractionreport.dll
+C:\KB\Traveling\CSharpModel\build\aattractionreport\obj\Release\aattractionreport.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\aattractionreport\obj\Release\aattractionreport.dll

@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\anumberwithmorethan2attractions.dll
+C:\KB\Traveling\CSharpModel\build\anumberwithmorethan2attractions\obj\Release\anumberwithmorethan2attractions.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\anumberwithmorethan2attractions\obj\Release\anumberwithmorethan2attractions.dll

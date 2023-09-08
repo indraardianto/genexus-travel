@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\attractionwithoutparameters.dll
+C:\KB\Traveling\CSharpModel\build\attractionwithoutparameters\obj\Release\attractionwithoutparameters.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\attractionwithoutparameters\obj\Release\attractionwithoutparameters.dll

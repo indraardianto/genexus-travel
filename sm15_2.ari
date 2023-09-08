@@ -1,0 +1,7 @@
+domain_i(87,'gxdomainpage.cs').
+domain_i(92,'gxdomainlocation.cs').
+domain_i(93,'gxdomainseatchar.cs').
+ext_sdt_map_i(15,'GeneXus.dll',[ 0,2,0 ]).
+ext_sdt_map_i(15,'GeneXus.dll',[ 0,4,0 ]).
+sdt_map_i(15,'Attraction',[ 0,2,0 ]).
+sdt_map_i(15,'Category',[ 0,4,0 ]).

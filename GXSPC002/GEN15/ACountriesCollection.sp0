@@ -1,0 +1,353 @@
+spec_i([ proc,28,'Countries Collection','CountriesCollection',78,eng,'17_0_8-158023' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 3,[ [ 3,many ] ],[],[],[ [ [ 3 ],[ 9,10 ] ] ],[ [ [ 3 ],[] ] ],[ 9 ],'ICOUNTRY',[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [ [ 3,9 ],[ 3,10 ] ] ]).
+ 
+las_i(2,[ [ 9,10 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','Timeout=120')).
+rule_i(0,datastore(1,'USER_PASSWORD','uZXÔ=ˆoÒEÌ''[Z}tvÜCÚ¿ÌT')).
+rule_i(0,datastore(1,'USER_ID',uZXAxoI7SbyvxC12)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','trialapps3.genexus.com')).
+rule_i(0,datastore(1,'CS_DBNAME','Idd34a97045eb5096d2a7b475d46cdbbd3')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','CountriesCollection')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('AppGenerator','1')).
+rule_i(0,prop('AppLocation','')).
+rule_i(0,prop('AppIcon','')).
+rule_i(0,prop('AppTitle','')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Secure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'Carmine'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','HTTP')).
+rule_i(0,prop('IsMain','-1')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(120,'Root Module'))).
+rule_i(0,prop('ObjDesc','Countries Collection')).
+rule_i(0,prop('ObjName','CountriesCollection')).
+rule_i(0,maingen(15)).
+rule_i(0,prop('PGMTYPE',main)).
+rule_i(0,output_file(t('RankingCountry',3),t(pdf,3))).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,3,[],[ [],'ICOUNTRY',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,9).
+v_i(t,o,2,10).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',13 ]).
+attri_i(9,[ 'CountryId',int,4,0,'ZZZ9',0,'Country Id','',0 ]).
+attri_i(10,[ 'CountryName',char,50,0,'',0,'Country Name','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',11 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',10 ]).
+attri_i('Countries',[ 'Countries',int,4,0,'ZZZ9',0,'Countries','',9 ]).
+attri_i('Countryitem',[ 'CountryItem',o('SDTCountry'),0,0,'',0,'Country Item','',8 ]).
+ 
+table_i(3,[ 'Country',[ 9,10 ],'Country','Country' ]).
+ 
+index_i(3,[ 'ICOUNTRY',u,[ 9 ],'ICountry' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(86,[ 'Name' ]).
+dom_info_i(85,[ 'Id' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [ 10,9 ],[],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,2,2).
+b_group_i(2,1,lit,0,3,3).
+b_group_i(1,3,lit,0,11,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,2,1,cmd,3,[ t('',121,2,0),t(table,3,2,10),t(3,3,2,10) ]).
+b_line_i(3,2,1,cmd,3,[]).
+b_line_i(4,2,1,cmd,3,[]).
+b_line_i(5,2,1,cmd,3,[ t('',107,5,0),t('Countryitem',23,3,0),t(=,10,3,0),t([ 'SDTCountry',[ t('(',0,5,20),t(')',4,5,21) ],n ],46,3,0) ]).
+b_line_i(6,2,1,cmd,3,[ t('',107,6,0),t([ t('Countryitem',23,3,0),t('Id',3,3,0) ],29,3,0),t(=,10,3,0),t(9,2,3,0) ]).
+b_line_i(7,2,1,cmd,3,[ t('',107,7,0),t([ t('Countryitem',23,3,0),t('Name',3,3,0) ],29,3,0),t(=,10,3,0),t(10,2,3,0) ]).
+b_line_i(8,2,1,cmd,3,[]).
+b_line_i(9,2,1,cmd,3,[]).
+b_line_i(10,2,1,cmd,3,[ t('',128,10,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+calling_main_i(1,28).
+ 
+att_prop_i(2,10,'ExternalName','CountryName',d).
+att_prop_i(2,10,'ExternalNamespace','Traveling',d).
+att_prop_i(2,10,'EmptyAsNull','Yes',d).
+att_prop_i(2,10,idBasedOn,86,v).
+att_prop_i(2,10,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,10,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,10,'AttRegEx','',d).
+att_prop_i(2,10,'AttValidationFailedMsg','',d).
+att_prop_i(2,10,'DownloadOffline','0',d).
+att_prop_i(2,10,'VarServiceExtName','',d).
+att_prop_i(2,10,'FullName','CountryName',v).
+att_prop_i(2,9,'ExternalName','CountryId',d).
+att_prop_i(2,9,'ExternalNamespace','Traveling',d).
+att_prop_i(2,9,'EmptyAsNull','Yes',d).
+att_prop_i(2,9,idBasedOn,85,v).
+att_prop_i(2,9,'AUTONUMBER','-1',v).
+att_prop_i(2,9,'AUTONUMBER_START','1',d).
+att_prop_i(2,9,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,9,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,9,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,9,'AttRegEx','',d).
+att_prop_i(2,9,'AttValidationFailedMsg','',d).
+att_prop_i(2,9,'DownloadOffline','0',d).
+att_prop_i(2,9,'VarServiceExtName','',d).
+att_prop_i(2,9,'FullName','CountryId',v).
+ 
+ 
+tbl_att_prop_i(2,3,9,'AllowNulls',n).
+tbl_att_prop_i(2,3,9,'AUTONUMBER',y).
+tbl_att_prop_i(2,3,10,'AllowNulls',n).
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,57,0 ],name,'SDTCountry').
+struct_dt_i([ 26,57,0 ],namespace,'Traveling').
+struct_dt_i([ 26,57,0 ],'ObjName','SDTCountry').
+struct_dt_i([ 26,57,0 ],'ObjDesc','SDTCountry').
+struct_dt_i([ 26,57,0 ],'ExternalName','SDTCountry').
+struct_dt_i([ 26,57,0 ],'ExternalNamespace','Traveling').
+struct_dt_i([ 26,57,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,57,0 ],fullname,'SDTCountry').
+ 
+struct_dt_elem_i([ 26,57,0 ],1,name,'Id').
+struct_dt_elem_i([ 26,57,0 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,57,0 ],1,basedon,85).
+struct_dt_elem_i([ 26,57,0 ],1,length,4).
+struct_dt_elem_i([ 26,57,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,57,0 ],1,sign,0).
+struct_dt_elem_i([ 26,57,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,57,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,57,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,57,0 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,57,0 ],1,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 26,57,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,57,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,57,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,57,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,57,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,57,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,57,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,57,0 ],2,name,'Name').
+struct_dt_elem_i([ 26,57,0 ],2,camelname,'Name').
+struct_dt_elem_i([ 26,57,0 ],2,length,20).
+struct_dt_elem_i([ 26,57,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,57,0 ],2,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,57,0 ],2,pic,'').
+struct_dt_elem_i([ 26,57,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,57,0 ],2,'ExternalName','Name').
+struct_dt_elem_i([ 26,57,0 ],2,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 26,57,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,57,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,57,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,57,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,57,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,57,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,57,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,57,0 ],3,name,'Attractionsquantity').
+struct_dt_elem_i([ 26,57,0 ],3,camelname,'AttractionsQuantity').
+struct_dt_elem_i([ 26,57,0 ],3,length,4).
+struct_dt_elem_i([ 26,57,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,57,0 ],3,sign,0).
+struct_dt_elem_i([ 26,57,0 ],3,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,57,0 ],3,pic,'ZZZ9').
+struct_dt_elem_i([ 26,57,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,57,0 ],3,'ExternalName','AttractionsQuantity').
+struct_dt_elem_i([ 26,57,0 ],3,'ExternalNamespace','Traveling').
+struct_dt_elem_i([ 26,57,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,57,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,57,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,57,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,57,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,57,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,57,0 ],3,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,28,'COUNTRIESCOLLECTION','HTTP','Secure').
+ 
+ 
+pgm_main_info_i(proc,28,'COUNTRIESCOLLECTION',[ 15,'ACOUNTRIESCOLLECTION','Countries Collection','','','','HTTP' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

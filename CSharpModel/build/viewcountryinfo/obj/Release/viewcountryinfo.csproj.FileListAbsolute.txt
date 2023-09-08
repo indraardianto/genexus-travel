@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\viewcountryinfo.dll
+C:\KB\Traveling\CSharpModel\build\viewcountryinfo\obj\Release\viewcountryinfo.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\viewcountryinfo\obj\Release\viewcountryinfo.dll

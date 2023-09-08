@@ -1,0 +1,3 @@
+C:\KB\Traveling\CSharpModel\web\bin\attractionattractionwc.dll
+C:\KB\Traveling\CSharpModel\build\attractionattractionwc\obj\Release\attractionattractionwc.csprojResolveAssemblyReference.cache
+C:\KB\Traveling\CSharpModel\build\attractionattractionwc\obj\Release\attractionattractionwc.dll
